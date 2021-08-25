@@ -21,7 +21,7 @@
   <version>0.0.1</version>
 
   <modules>
-    <module>nc/nc-pom.xml</module>
+    <module>nc</module>
   </modules>
 
 </project>
