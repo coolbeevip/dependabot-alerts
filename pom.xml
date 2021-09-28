@@ -22,6 +22,7 @@
 
   <modules>
     <module>nc</module>
+    <module>nc-notifier</module>
   </modules>
 
 </project>
