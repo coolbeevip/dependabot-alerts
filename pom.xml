@@ -22,6 +22,13 @@
 
   <modules>
     <module>nc</module>
+    <module>nc-auth</module>
+    <module>nc-gateway</module>
+    <module>nc-register</module>
+    <module>nc-monitor</module>
+    <module>nc-job</module>
+    <module>nc-sentinel</module>
+    <module>nc-tx</module>
     <module>nc-notifier</module>
   </modules>
 
