@@ -310,11 +310,6 @@
       <version>6.2.0</version>
     </dependency>
     <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-core</artifactId>
-      <version>2.16.0</version>
-    </dependency>
-    <dependency>
       <groupId>jakarta.validation</groupId>
       <artifactId>jakarta.validation-api</artifactId>
       <version>2.0.2</version>
@@ -403,11 +398,6 @@
       <groupId>io.projectreactor.netty</groupId>
       <artifactId>reactor-netty</artifactId>
       <version>0.9.9.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.awaitility</groupId>
-      <artifactId>awaitility</artifactId>
-      <version>3.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.reactivestreams</groupId>
@@ -560,11 +550,6 @@
       <version>3.3.6.RELEASE</version>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-    </dependency>
-    <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-api</artifactId>
       <version>1.4.2</version>
@@ -573,11 +558,6 @@
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-common</artifactId>
       <version>1.4.2</version>
-    </dependency>
-    <dependency>
-      <groupId>io.rest-assured</groupId>
-      <artifactId>rest-assured</artifactId>
-      <version>3.3.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.j2objc</groupId>
@@ -680,11 +660,6 @@
       <version>2.3.1.RELEASE</version>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <version>2.3.1.RELEASE</version>
-    </dependency>
-    <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-buffer</artifactId>
       <version>4.1.68.Final</version>
@@ -753,7 +728,7 @@
       <groupId>org.jboss.logging</groupId>
       <artifactId>jboss-logging</artifactId>
       <version>3.4.1.Final</version>
-    </dependency>
+    </dependency>    
   </dependencies>
 
 </project>

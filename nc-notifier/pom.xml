@@ -25,11 +25,6 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.chinamobile.cmos</groupId>
-      <artifactId>sms-core</artifactId>
-      <version>2.1.12.1</version>
-    </dependency>
-    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.10</version>
@@ -38,16 +33,6 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-text</artifactId>
       <version>1.9</version>
-    </dependency>
-    <dependency>
-      <groupId>org.assertj</groupId>
-      <artifactId>assertj-core</artifactId>
-      <version>3.16.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>mockwebserver</artifactId>
-      <version>3.14.9</version>
     </dependency>
     <dependency>
       <groupId>com.squareup.okhttp3</groupId>
@@ -565,11 +550,6 @@
       <version>3.0.3</version>
     </dependency>
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>5.6.3</version>
-    </dependency>
-    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot</artifactId>
       <version>2.3.1.RELEASE</version>
@@ -587,11 +567,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-logging</artifactId>
-      <version>2.3.1.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
       <version>2.3.1.RELEASE</version>
     </dependency>
     <dependency>
@@ -710,11 +685,6 @@
       <version>1.29.0</version>
     </dependency>
     <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-testing</artifactId>
-      <version>1.29.0</version>
-    </dependency>
-    <dependency>
       <groupId>com.aliyun</groupId>
       <artifactId>aliyun-java-sdk-core</artifactId>
       <version>4.5.3</version>
@@ -738,7 +708,7 @@
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
       <version>1.4.200</version>
-    </dependency>    
+    </dependency>
   </dependencies>
 
 </project>

@@ -251,11 +251,6 @@
     </dependency>
     <dependency>
       <groupId>com.ai.txlcn</groupId>
-      <artifactId>txlcn-tm</artifactId>
-      <version>5.0.2.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.ai.txlcn</groupId>
       <artifactId>txlcn-txmsg</artifactId>
       <version>5.0.2.2</version>
     </dependency>
@@ -303,11 +298,6 @@
       <groupId>io.lettuce</groupId>
       <artifactId>lettuce-core</artifactId>
       <version>5.3.1.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-core</artifactId>
-      <version>2.16.0</version>
     </dependency>
     <dependency>
       <groupId>jakarta.validation</groupId>
@@ -383,11 +373,6 @@
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis-spring</artifactId>
       <version>2.0.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.awaitility</groupId>
-      <artifactId>awaitility</artifactId>
-      <version>3.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.reactivestreams</groupId>
@@ -535,11 +520,6 @@
       <version>3.3.6.RELEASE</version>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-    </dependency>
-    <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-api</artifactId>
       <version>1.4.2</version>
@@ -553,11 +533,6 @@
       <groupId>jakarta.persistence</groupId>
       <artifactId>jakarta.persistence-api</artifactId>
       <version>2.2.3</version>
-    </dependency>
-    <dependency>
-      <groupId>io.rest-assured</groupId>
-      <artifactId>rest-assured</artifactId>
-      <version>3.3.0</version>
     </dependency>
     <dependency>
       <groupId>com.esotericsoftware</groupId>
@@ -612,11 +587,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-logging</artifactId>
-      <version>2.3.1.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
       <version>2.3.1.RELEASE</version>
     </dependency>
     <dependency>
