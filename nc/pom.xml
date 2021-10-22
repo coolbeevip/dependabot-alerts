@@ -340,16 +340,6 @@
       <version>5.0.2.2</version>
     </dependency>
     <dependency>
-      <groupId>com.ai.txlcn</groupId>
-      <artifactId>txlcn-tc</artifactId>
-      <version>5.0.2.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.ai.txlcn</groupId>
-      <artifactId>txlcn-txmsg-netty</artifactId>
-      <version>5.0.2.2</version>
-    </dependency>
-    <dependency>
       <groupId>com.google.code.findbugs</groupId>
       <artifactId>jsr305</artifactId>
       <version>3.0.1</version>
