@@ -430,11 +430,6 @@
       <version>1.7</version>
     </dependency>
     <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>1.18.12</version>
-    </dependency>
-    <dependency>
       <groupId>org.javassist</groupId>
       <artifactId>javassist</artifactId>
       <version>3.27.0-GA</version>
@@ -576,16 +571,6 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-configuration-processor</artifactId>
-      <version>2.3.1.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-actuator</artifactId>
-      <version>2.3.1.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-logging</artifactId>
       <version>2.3.1.RELEASE</version>
     </dependency>
@@ -608,11 +593,6 @@
       <groupId>com.zaxxer</groupId>
       <artifactId>HikariCP</artifactId>
       <version>3.4.5</version>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-all</artifactId>
-      <version>4.1.50.Final</version>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
