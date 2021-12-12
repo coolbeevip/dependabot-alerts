@@ -205,6 +205,11 @@
       <version>2.3.0</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.kafka</groupId>
+      <artifactId>kafka_2.12</artifactId>
+      <version>2.5.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
       <version>5.2.7.RELEASE</version>
@@ -340,6 +345,16 @@
       <version>5.0.2.2</version>
     </dependency>
     <dependency>
+      <groupId>com.ai.txlcn</groupId>
+      <artifactId>txlcn-tc</artifactId>
+      <version>5.0.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ai.txlcn</groupId>
+      <artifactId>txlcn-txmsg-netty</artifactId>
+      <version>5.0.2.2</version>
+    </dependency>
+    <dependency>
       <groupId>com.google.code.findbugs</groupId>
       <artifactId>jsr305</artifactId>
       <version>3.0.1</version>
@@ -393,6 +408,11 @@
       <groupId>io.lettuce</groupId>
       <artifactId>lettuce-core</artifactId>
       <version>5.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.16.0</version>
     </dependency>
     <dependency>
       <groupId>joda-time</groupId>
@@ -530,6 +550,11 @@
       <version>4.2.0</version>
     </dependency>
     <dependency>
+      <groupId>org.awaitility</groupId>
+      <artifactId>awaitility</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.reactivestreams</groupId>
       <artifactId>reactive-streams</artifactId>
       <version>1.0.3</version>
@@ -620,6 +645,11 @@
       <version>1.4.2</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>3.5.7</version>
+    </dependency>
+    <dependency>
       <groupId>com.alibaba.spring</groupId>
       <artifactId>spring-context-support</artifactId>
       <version>1.0.6</version>
@@ -675,6 +705,11 @@
       <version>1.2-0</version>
     </dependency>
     <dependency>
+      <groupId>it.ozimov</groupId>
+      <artifactId>embedded-redis</artifactId>
+      <version>0.7.2</version>
+    </dependency>
+    <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
       <version>1.14</version>
@@ -682,12 +717,12 @@
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
-      <version>2.13.3</version>
+      <version>2.15.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-to-slf4j</artifactId>
-      <version>2.13.3</version>
+      <version>2.15.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.maven.doxia</groupId>
@@ -733,6 +768,11 @@
       <groupId>io.projectreactor</groupId>
       <artifactId>reactor-core</artifactId>
       <version>3.3.6.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.3.0</version>
     </dependency>
     <dependency>
       <groupId>com.esotericsoftware</groupId>
@@ -806,6 +846,11 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jdbc</artifactId>
+      <version>2.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
       <version>2.3.1.RELEASE</version>
     </dependency>
@@ -837,6 +882,11 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-security</artifactId>
+      <version>2.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
       <version>2.3.1.RELEASE</version>
     </dependency>
     <dependency>
@@ -1010,19 +1060,24 @@
       <version>2.11.0</version>
     </dependency>
     <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.31.1</version>
+    </dependency>
+    <dependency>
       <groupId>com.ai</groupId>
       <artifactId>0-nc-common-override</artifactId>
-      <version>4.5.0-20211025.080942-18</version>
+      <version>4.6.0-20211211.045526-5</version>
     </dependency>
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-core</artifactId>
-      <version>4.5.0-20211025.080634-18</version>
+      <version>4.6.0-20211211.045345-6</version>
     </dependency>
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-um</artifactId>
-      <version>4.5.0-20211025.081245-18</version>
+      <version>4.6.0-20211211.045702-5</version>
     </dependency>
     <dependency>
       <groupId>commons-dbcp</groupId>
@@ -1270,6 +1325,11 @@
       <version>6.0.1</version>
     </dependency>
     <dependency>
+      <groupId>com.graphql-java-kickstart</groupId>
+      <artifactId>graphql-spring-boot-starter-test</artifactId>
+      <version>6.0.1</version>
+    </dependency>
+    <dependency>
       <groupId>jakarta.validation</groupId>
       <artifactId>jakarta.validation-api</artifactId>
       <version>2.0.2</version>
@@ -1495,6 +1555,11 @@
       <version>2.11.0</version>
     </dependency>
     <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>versions-maven-plugin</artifactId>
+      <version>2.8.1</version>
+    </dependency>
+    <dependency>
       <groupId>com.jcraft</groupId>
       <artifactId>jsch</artifactId>
       <version>0.1.54</version>
@@ -1523,6 +1588,11 @@
       <groupId>org.codehaus.woodstox</groupId>
       <artifactId>stax2-api</artifactId>
       <version>4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.nacos</groupId>
@@ -1617,7 +1687,7 @@
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-all</artifactId>
-      <version>4.1.50.Final</version>
+      <version>4.1.68.Final</version>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>

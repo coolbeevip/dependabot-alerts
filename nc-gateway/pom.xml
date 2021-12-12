@@ -310,6 +310,11 @@
       <version>6.2.0</version>
     </dependency>
     <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.16.0</version>
+    </dependency>
+    <dependency>
       <groupId>jakarta.validation</groupId>
       <artifactId>jakarta.validation-api</artifactId>
       <version>2.0.2</version>
@@ -397,7 +402,12 @@
     <dependency>
       <groupId>io.projectreactor.netty</groupId>
       <artifactId>reactor-netty</artifactId>
-      <version>0.9.9.RELEASE</version>
+      <version>0.9.23.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.awaitility</groupId>
+      <artifactId>awaitility</artifactId>
+      <version>3.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.reactivestreams</groupId>
@@ -438,6 +448,11 @@
       <groupId>commons-configuration</groupId>
       <artifactId>commons-configuration</artifactId>
       <version>1.8</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.12</version>
     </dependency>
     <dependency>
       <groupId>org.javassist</groupId>
@@ -545,6 +560,11 @@
       <version>3.3.6.RELEASE</version>
     </dependency>
     <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
+    </dependency>
+    <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-api</artifactId>
       <version>1.4.2</version>
@@ -553,6 +573,11 @@
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-common</artifactId>
       <version>1.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.3.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.j2objc</groupId>
@@ -655,6 +680,11 @@
       <version>2.3.1.RELEASE</version>
     </dependency>
     <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <version>2.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-buffer</artifactId>
       <version>4.1.68.Final</version>
@@ -687,7 +717,7 @@
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-handler-proxy</artifactId>
-      <version>4.1.50.Final</version>
+      <version>4.1.68.Final</version>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
@@ -702,7 +732,7 @@
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-transport-native-epoll</artifactId>
-      <version>4.1.50.Final</version>
+      <version>4.1.68.Final</version>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign.form</groupId>

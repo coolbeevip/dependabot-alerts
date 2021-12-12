@@ -251,6 +251,11 @@
     </dependency>
     <dependency>
       <groupId>com.ai.txlcn</groupId>
+      <artifactId>txlcn-tm</artifactId>
+      <version>5.0.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ai.txlcn</groupId>
       <artifactId>txlcn-txmsg</artifactId>
       <version>5.0.2.2</version>
     </dependency>
@@ -298,6 +303,11 @@
       <groupId>io.lettuce</groupId>
       <artifactId>lettuce-core</artifactId>
       <version>5.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.16.0</version>
     </dependency>
     <dependency>
       <groupId>jakarta.validation</groupId>
@@ -375,6 +385,11 @@
       <version>2.0.4</version>
     </dependency>
     <dependency>
+      <groupId>org.awaitility</groupId>
+      <artifactId>awaitility</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.reactivestreams</groupId>
       <artifactId>reactive-streams</artifactId>
       <version>1.0.3</version>
@@ -428,6 +443,11 @@
       <groupId>commons-dbutils</groupId>
       <artifactId>commons-dbutils</artifactId>
       <version>1.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.12</version>
     </dependency>
     <dependency>
       <groupId>org.javassist</groupId>
@@ -515,6 +535,11 @@
       <version>3.3.6.RELEASE</version>
     </dependency>
     <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
+    </dependency>
+    <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-api</artifactId>
       <version>1.4.2</version>
@@ -528,6 +553,11 @@
       <groupId>jakarta.persistence</groupId>
       <artifactId>jakarta.persistence-api</artifactId>
       <version>2.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.3.0</version>
     </dependency>
     <dependency>
       <groupId>com.esotericsoftware</groupId>
@@ -571,7 +601,22 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <version>2.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+      <version>2.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-logging</artifactId>
+      <version>2.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
       <version>2.3.1.RELEASE</version>
     </dependency>
     <dependency>
@@ -588,11 +633,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
       <version>2.3.1.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>com.zaxxer</groupId>
-      <artifactId>HikariCP</artifactId>
-      <version>3.4.5</version>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
