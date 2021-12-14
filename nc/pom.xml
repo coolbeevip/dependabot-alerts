@@ -172,7 +172,7 @@
     <dependency>
       <groupId>com.fasterxml.jackson.dataformat</groupId>
       <artifactId>jackson-dataformat-xml</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate.validator</groupId>
@@ -402,7 +402,7 @@
     <dependency>
       <groupId>com.fasterxml.woodstox</groupId>
       <artifactId>woodstox-core</artifactId>
-      <version>6.2.0</version>
+      <version>6.2.3</version>
     </dependency>
     <dependency>
       <groupId>io.lettuce</groupId>
@@ -1037,27 +1037,27 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-jaxb-annotations</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-parameter-names</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>org.xerial</groupId>
@@ -1067,17 +1067,17 @@
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>0-nc-common-override</artifactId>
-      <version>4.6.0-20211213.032336-6</version>
+      <version>4.6.0-20211213.104041-8</version>
     </dependency>
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-core</artifactId>
-      <version>4.6.0-20211213.032004-7</version>
+      <version>4.6.0-20211213.103645-9</version>
     </dependency>
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-um</artifactId>
-      <version>4.6.0-20211213.032743-6</version>
+      <version>4.6.0-20211213.104252-8</version>
     </dependency>
     <dependency>
       <groupId>commons-dbcp</groupId>
@@ -1547,12 +1547,12 @@
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jdk8</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jsr310</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
@@ -1587,7 +1587,7 @@
     <dependency>
       <groupId>org.codehaus.woodstox</groupId>
       <artifactId>stax2-api</artifactId>
-      <version>4.2</version>
+      <version>4.2.1</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -1813,7 +1813,7 @@
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
       <version>1.4.200</version>
-    </dependency>
+    </dependency>    
   </dependencies>
 
 </project>
