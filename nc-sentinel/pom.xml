@@ -32,7 +32,7 @@
     <dependency>
       <groupId>org.thymeleaf</groupId>
       <artifactId>thymeleaf</artifactId>
-      <version>3.0.11.RELEASE</version>
+      <version>3.0.14.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -102,22 +102,22 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-parameter-names</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>org.checkerframework</groupId>
@@ -137,7 +137,7 @@
     <dependency>
       <groupId>org.hibernate.validator</groupId>
       <artifactId>hibernate-validator</artifactId>
-      <version>6.1.5.Final</version>
+      <version>6.1.7.Final</version>
     </dependency>
     <dependency>
       <groupId>jakarta.annotation</groupId>
@@ -182,32 +182,32 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
-      <version>5.2.7.RELEASE</version>
+      <version>5.2.15.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>5.2.7.RELEASE</version>
+      <version>5.2.15.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>5.2.7.RELEASE</version>
+      <version>5.2.15.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>5.2.7.RELEASE</version>
+      <version>5.2.15.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-expression</artifactId>
-      <version>5.2.7.RELEASE</version>
+      <version>5.2.15.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jcl</artifactId>
-      <version>5.2.7.RELEASE</version>
+      <version>5.2.15.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.wildfly.common</groupId>
@@ -252,32 +252,32 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-netflix-archaius</artifactId>
-      <version>2.2.3.RELEASE</version>
+      <version>2.2.9.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-netflix-ribbon</artifactId>
-      <version>2.2.3.RELEASE</version>
+      <version>2.2.9.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-openfeign-core</artifactId>
-      <version>2.2.3.RELEASE</version>
+      <version>2.2.9.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter</artifactId>
-      <version>2.2.3.RELEASE</version>
+      <version>2.2.9.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-archaius</artifactId>
-      <version>2.2.3.RELEASE</version>
+      <version>2.2.9.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-openfeign</artifactId>
-      <version>2.2.3.RELEASE</version>
+      <version>2.2.9.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>jakarta.validation</groupId>
@@ -292,7 +292,7 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-crypto</artifactId>
-      <version>5.3.3.RELEASE</version>
+      <version>5.3.9.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
@@ -332,7 +332,7 @@
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
-      <version>1.9.5</version>
+      <version>1.9.6</version>
     </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -397,17 +397,17 @@
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
-      <version>2.15.0</version>
+      <version>2.17.0</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jdk8</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jsr310</artifactId>
-      <version>2.11.0</version>
+      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>org.jasypt</groupId>
@@ -437,7 +437,7 @@
     <dependency>
       <groupId>io.github.openfeign</groupId>
       <artifactId>feign-core</artifactId>
-      <version>10.10.1</version>
+      <version>10.12</version>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign</groupId>
@@ -447,57 +447,57 @@
     <dependency>
       <groupId>io.github.openfeign</groupId>
       <artifactId>feign-hystrix</artifactId>
-      <version>10.10.1</version>
+      <version>10.12</version>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign</groupId>
       <artifactId>feign-slf4j</artifactId>
-      <version>10.10.1</version>
+      <version>10.12</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-actuator</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-autoconfigure</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-configuration-processor</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-logging</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-undertow</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-validation</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-      <version>2.3.1.RELEASE</version>
+      <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -512,7 +512,7 @@
     <dependency>
       <groupId>com.netflix.archaius</groupId>
       <artifactId>archaius-core</artifactId>
-      <version>0.7.6</version>
+      <version>0.7.7</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.annotation</groupId>
@@ -522,7 +522,7 @@
     <dependency>
       <groupId>org.jboss.logging</groupId>
       <artifactId>jboss-logging</artifactId>
-      <version>3.4.1.Final</version>
+      <version>3.4.2.Final</version>
     </dependency>
   </dependencies>
 
