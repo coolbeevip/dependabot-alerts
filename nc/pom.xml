@@ -152,7 +152,7 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-      <version>42.2.13</version>
+      <version>42.3.3</version>
     </dependency>
     <dependency>
       <groupId>commons-lang</groupId>
@@ -982,17 +982,17 @@
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>0-nc-common-override</artifactId>
-      <version>4.6.0-20220105.064954-15</version>
+      <version>4.7.0-20220218.072425-7</version>
     </dependency>
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-core</artifactId>
-      <version>4.6.0-20220105.064837-16</version>
+      <version>4.7.0-20220218.072227-7</version>
     </dependency>
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-um</artifactId>
-      <version>4.6.0-20220105.065251-15</version>
+      <version>4.7.0-20220218.073423-7</version>
     </dependency>
     <dependency>
       <groupId>commons-dbcp</groupId>
@@ -1707,7 +1707,7 @@
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
-      <version>2.0.202</version>
+      <version>2.1.210</version>
     </dependency>
   </dependencies>
 
