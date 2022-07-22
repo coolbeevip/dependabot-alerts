@@ -30,6 +30,7 @@
     <module>nc-sentinel</module>
     <module>nc-tx</module>
     <module>nc-notifier</module>
+    <module>nc-collector</module>
   </modules>
 
 </project>

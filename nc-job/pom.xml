@@ -67,62 +67,62 @@
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-annotation-aspectj</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-cluster-client-default</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-cluster-common-default</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-cluster-server-default</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-core</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-datasource-extension</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-parameter-flow-control</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-reactor-adapter</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-spring-webflux-adapter</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-spring-webmvc-adapter</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-transport-common</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
       <artifactId>sentinel-transport-simple-http</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -137,27 +137,26 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
-      <version>2.11.4</version>
+      <version>2.12.7</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
-      <version>2.11.4</version>
+      <version>2.12.7</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.11.4</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.module</groupId>
-      <artifactId>jackson-module-jaxb-annotations</artifactId>
-      <version>2.11.4</version>
+      <version>2.12.7</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-parameter-names</artifactId>
-      <version>2.11.4</version>
+      <version>2.12.7</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.checkerframework</groupId>
@@ -173,11 +172,6 @@
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
       <version>2.6</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.dataformat</groupId>
-      <artifactId>jackson-dataformat-xml</artifactId>
-      <version>2.11.4</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate.validator</groupId>
@@ -242,7 +236,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>5.2.15.RELEASE</version>
+      <version>5.2.20.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -332,7 +326,8 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-openfeign-core</artifactId>
-      <version>2.2.9.RELEASE</version>
+      <version>2.2.10.RELEASE</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -345,9 +340,9 @@
       <version>2.2.9.RELEASE</version>
     </dependency>
     <dependency>
-      <groupId>com.fasterxml.woodstox</groupId>
-      <artifactId>woodstox-core</artifactId>
-      <version>6.2.3</version>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.16.0</version>
     </dependency>
     <dependency>
       <groupId>jakarta.validation</groupId>
@@ -392,22 +387,18 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
-      <version>1.2.69</version>
+      <version>1.2.83</version>
     </dependency>
     <dependency>
       <groupId>com.sun.activation</groupId>
       <artifactId>jakarta.activation</artifactId>
       <version>1.2.2</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.errorprone</groupId>
       <artifactId>error_prone_annotations</artifactId>
       <version>2.5.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.aspectj</groupId>
-      <artifactId>aspectjweaver</artifactId>
-      <version>1.9.6</version>
     </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -423,6 +414,11 @@
       <groupId>com.googlecode.concurrentlinkedhashmap</groupId>
       <artifactId>concurrentlinkedhashmap-lru</artifactId>
       <version>1.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.awaitility</groupId>
+      <artifactId>awaitility</artifactId>
+      <version>3.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.data</groupId>
@@ -497,22 +493,22 @@
     <dependency>
       <groupId>com.alibaba.cloud</groupId>
       <artifactId>spring-cloud-alibaba-sentinel-datasource</artifactId>
-      <version>2.2.1.RELEASE</version>
+      <version>2.2.6.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.cloud</groupId>
       <artifactId>spring-cloud-circuitbreaker-sentinel</artifactId>
-      <version>2.2.1.RELEASE</version>
+      <version>2.2.6.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.cloud</groupId>
       <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-      <version>2.2.1.RELEASE</version>
+      <version>2.2.6.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.cloud</groupId>
       <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-      <version>2.2.1.RELEASE</version>
+      <version>2.2.6.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>commons-codec</groupId>
@@ -532,12 +528,14 @@
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jdk8</artifactId>
-      <version>2.11.4</version>
+      <version>2.12.7</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jsr310</artifactId>
-      <version>2.11.4</version>
+      <version>2.12.7</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jboss</groupId>
@@ -555,9 +553,9 @@
       <version>1.26</version>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.woodstox</groupId>
-      <artifactId>stax2-api</artifactId>
-      <version>4.2.1</version>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
     </dependency>
     <dependency>
       <groupId>com.alibaba.nacos</groupId>
@@ -573,6 +571,11 @@
       <groupId>jakarta.persistence</groupId>
       <artifactId>jakarta.persistence-api</artifactId>
       <version>2.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.3.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.j2objc</groupId>
@@ -628,6 +631,7 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-freemarker</artifactId>
       <version>2.3.12.RELEASE</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -637,6 +641,12 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-mail</artifactId>
+      <version>2.3.12.RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
       <version>2.3.12.RELEASE</version>
     </dependency>
     <dependency>
