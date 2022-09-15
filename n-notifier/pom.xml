@@ -24,1579 +24,1581 @@
   <artifactId>dependabot-alerts-nc-notifier</artifactId>
 
   <dependencies>
-    <dependency>
-      <groupId>org.assertj</groupId>
-      <artifactId>assertj-core</artifactId>
-      <version>3.18.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.thymeleaf</groupId>
-      <artifactId>thymeleaf</artifactId>
-      <version>3.0.14.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.thymeleaf</groupId>
-      <artifactId>thymeleaf-spring5</artifactId>
-      <version>3.0.14.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpasyncclient</artifactId>
-      <version>4.1.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.5.13</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpcore</artifactId>
-      <version>4.4.14</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpcore-nio</artifactId>
-      <version>4.4.14</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.api.grpc</groupId>
-      <artifactId>proto-google-common-protos</artifactId>
-      <version>1.17.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.api.grpc</groupId>
-      <artifactId>proto-google-common-protos</artifactId>
-      <version>2.0.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.protobuf</groupId>
-      <artifactId>protobuf-java</artifactId>
-      <version>3.12.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.protobuf</groupId>
-      <artifactId>protobuf-java</artifactId>
-      <version>3.19.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.protobuf</groupId>
-      <artifactId>protobuf-java</artifactId>
-      <version>3.6.1</version>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-classic</artifactId>
-      <version>1.2.3</version>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-classic</artifactId>
-      <version>1.2.7</version>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-core</artifactId>
-      <version>1.2.3</version>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-core</artifactId>
-      <version>1.2.7</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-annotation-aspectj</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-cluster-client-default</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-cluster-common-default</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-cluster-server-default</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-core</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-parameter-flow-control</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-reactor-adapter</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-spring-webflux-adapter</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-spring-webmvc-adapter</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-transport-common</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.csp</groupId>
-      <artifactId>sentinel-transport-simple-http</artifactId>
-      <version>1.8.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.unbescape</groupId>
-      <artifactId>unbescape</artifactId>
-      <version>1.1.6.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.tomcat.embed</groupId>
-      <artifactId>tomcat-embed-core</artifactId>
-      <version>9.0.46</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.tomcat.embed</groupId>
-      <artifactId>tomcat-embed-websocket</artifactId>
-      <version>9.0.46</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.checkerframework</groupId>
-      <artifactId>checker-compat-qual</artifactId>
-      <version>2.5.5</version>
-    </dependency>
-    <dependency>
-      <groupId>org.checkerframework</groupId>
-      <artifactId>checker-qual</artifactId>
-      <version>3.5.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>42.3.3</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-lang</groupId>
-      <artifactId>commons-lang</artifactId>
-      <version>2.6</version>
-    </dependency>
-    <dependency>
-      <groupId>org.hibernate.validator</groupId>
-      <artifactId>hibernate-validator</artifactId>
-      <version>6.1.7.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>com.netflix.ribbon</groupId>
-      <artifactId>ribbon</artifactId>
-      <version>2.3.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.netflix.ribbon</groupId>
-      <artifactId>ribbon-core</artifactId>
-      <version>2.3.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.netflix.ribbon</groupId>
-      <artifactId>ribbon-httpclient</artifactId>
-      <version>2.3.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.netflix.ribbon</groupId>
-      <artifactId>ribbon-loadbalancer</artifactId>
-      <version>2.3.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-aop</artifactId>
-      <version>5.2.15.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-aop</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-aspects</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-beans</artifactId>
-      <version>5.2.15.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-beans</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-      <version>5.2.15.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context-support</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-core</artifactId>
-      <version>5.2.15.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-core</artifactId>
-      <version>5.3.13</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-expression</artifactId>
-      <version>5.2.15.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-expression</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-jcl</artifactId>
-      <version>5.2.15.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-jcl</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-jdbc</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-orm</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-oxm</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-tx</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-web</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-webmvc</artifactId>
-      <version>5.3.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.wildfly.common</groupId>
-      <artifactId>wildfly-common</artifactId>
-      <version>1.5.4.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.hibernate.common</groupId>
-      <artifactId>hibernate-commons-annotations</artifactId>
-      <version>5.1.2.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>jakarta.websocket</groupId>
-      <artifactId>jakarta.websocket-api</artifactId>
-      <version>1.1.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.thymeleaf.extras</groupId>
-      <artifactId>thymeleaf-extras-java8time</artifactId>
-      <version>3.0.4.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.stoyanr</groupId>
-      <artifactId>evictor</artifactId>
-      <version>1.0.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.wildfly.client</groupId>
-      <artifactId>wildfly-client-config</artifactId>
-      <version>1.0.1.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.axis2</groupId>
-      <artifactId>axis2</artifactId>
-      <version>1.6.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.axis2</groupId>
-      <artifactId>axis2-adb</artifactId>
-      <version>1.6.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.axis2</groupId>
-      <artifactId>axis2-kernel</artifactId>
-      <version>1.6.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.axis2</groupId>
-      <artifactId>axis2-transport-http</artifactId>
-      <version>1.6.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.axis2</groupId>
-      <artifactId>axis2-transport-local</artifactId>
-      <version>1.6.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.jsqlparser</groupId>
-      <artifactId>jsqlparser</artifactId>
-      <version>3.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.groovy</groupId>
-      <artifactId>groovy</artifactId>
-      <version>3.0.9</version>
-    </dependency>
-    <dependency>
-      <groupId>com.oracle.database.jdbc</groupId>
-      <artifactId>ojdbc8</artifactId>
-      <version>19.8.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>jakarta.transaction</groupId>
-      <artifactId>jakarta.transaction-api</artifactId>
-      <version>1.3.3</version>
-    </dependency>
-    <dependency>
-      <groupId>org.bouncycastle</groupId>
-      <artifactId>bcpkix-jdk15on</artifactId>
-      <version>1.67</version>
-    </dependency>
-    <dependency>
-      <groupId>org.flywaydb</groupId>
-      <artifactId>flyway-core</artifactId>
-      <version>6.4.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.xnio</groupId>
-      <artifactId>xnio-api</artifactId>
-      <version>3.8.6.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.lettuce</groupId>
-      <artifactId>lettuce-core</artifactId>
-      <version>6.0.8.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-core</artifactId>
-      <version>2.16.0</version>
-    </dependency>
-    <dependency>
-      <groupId>joda-time</groupId>
-      <artifactId>joda-time</artifactId>
-      <version>2.10.6</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.dom4j</groupId>
-      <artifactId>dom4j</artifactId>
-      <version>2.1.3</version>
-    </dependency>
-    <dependency>
-      <groupId>antlr</groupId>
-      <artifactId>antlr</artifactId>
-      <version>2.7.7</version>
-    </dependency>
-    <dependency>
-      <groupId>com.oracle.database.nls</groupId>
-      <artifactId>orai18n</artifactId>
-      <version>19.8.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>de.codecentric</groupId>
-      <artifactId>spring-boot-admin-client</artifactId>
-      <version>2.3.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-core</artifactId>
-      <version>5.4.10</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-crypto</artifactId>
-      <version>5.3.9.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-crypto</artifactId>
-      <version>5.4.10</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-rsa</artifactId>
-      <version>1.0.11.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-rsa</artifactId>
-      <version>1.0.9.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>net.lingala.zip4j</groupId>
-      <artifactId>zip4j</artifactId>
-      <version>2.6.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.github.ulisesbocchio</groupId>
-      <artifactId>jasypt-spring-boot</artifactId>
-      <version>1.16</version>
-    </dependency>
-    <dependency>
-      <groupId>com.github.ulisesbocchio</groupId>
-      <artifactId>jasypt-spring-boot-starter</artifactId>
-      <version>1.16</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.errorprone</groupId>
-      <artifactId>error_prone_annotations</artifactId>
-      <version>2.3.4</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.errorprone</groupId>
-      <artifactId>error_prone_annotations</artifactId>
-      <version>2.5.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.errorprone</groupId>
-      <artifactId>error_prone_annotations</artifactId>
-      <version>2.9.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okio</groupId>
-      <artifactId>okio</artifactId>
-      <version>1.17.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.mybatis</groupId>
-      <artifactId>mybatis</artifactId>
-      <version>3.5.6</version>
-    </dependency>
-    <dependency>
-      <groupId>org.mybatis</groupId>
-      <artifactId>mybatis-spring</artifactId>
-      <version>2.0.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.awaitility</groupId>
-      <artifactId>awaitility</artifactId>
-      <version>3.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.reactivestreams</groupId>
-      <artifactId>reactive-streams</artifactId>
-      <version>1.0.3</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.data</groupId>
-      <artifactId>spring-data-commons</artifactId>
-      <version>2.4.15</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.data</groupId>
-      <artifactId>spring-data-jpa</artifactId>
-      <version>2.4.15</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.data</groupId>
-      <artifactId>spring-data-keyvalue</artifactId>
-      <version>2.4.15</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.data</groupId>
-      <artifactId>spring-data-redis</artifactId>
-      <version>2.4.15</version>
-    </dependency>
-    <dependency>
-      <groupId>org.hdrhistogram</groupId>
-      <artifactId>HdrHistogram</artifactId>
-      <version>2.1.12</version>
-    </dependency>
-    <dependency>
-      <groupId>org.javassist</groupId>
-      <artifactId>javassist</artifactId>
-      <version>3.27.0-GA</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.spring</groupId>
-      <artifactId>spring-context-support</artifactId>
-      <version>1.0.10</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.spring</groupId>
-      <artifactId>spring-context-support</artifactId>
-      <version>1.0.6</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish.jaxb</groupId>
-      <artifactId>jaxb-runtime</artifactId>
-      <version>2.3.5</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.cloud</groupId>
-      <artifactId>spring-cloud-alibaba-commons</artifactId>
-      <version>2021.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.cloud</groupId>
-      <artifactId>spring-cloud-alibaba-sentinel-datasource</artifactId>
-      <version>2021.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.cloud</groupId>
-      <artifactId>spring-cloud-circuitbreaker-sentinel</artifactId>
-      <version>2021.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.cloud</groupId>
-      <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-      <version>2021.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.cloud</groupId>
-      <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-      <version>2021.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>1.14</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>1.15</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-api</artifactId>
-      <version>2.13.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-api</artifactId>
-      <version>2.17.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-to-slf4j</artifactId>
-      <version>2.13.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-to-slf4j</artifactId>
-      <version>2.17.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss</groupId>
-      <artifactId>jandex</artifactId>
-      <version>2.2.3.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jasypt</groupId>
-      <artifactId>jasypt</artifactId>
-      <version>1.9.2</version>
-    </dependency>
-    <dependency>
-      <groupId>io.projectreactor</groupId>
-      <artifactId>reactor-core</artifactId>
-      <version>3.4.12</version>
-    </dependency>
-    <dependency>
-      <groupId>com.github.brake.threegpp</groupId>
-      <artifactId>telecom-charsets</artifactId>
-      <version>1.0.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.rest-assured</groupId>
-      <artifactId>rest-assured</artifactId>
-      <version>3.3.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.j2objc</groupId>
-      <artifactId>j2objc-annotations</artifactId>
-      <version>1.3</version>
-    </dependency>
-    <dependency>
-      <groupId>io.micrometer</groupId>
-      <artifactId>micrometer-core</artifactId>
-      <version>1.6.13</version>
-    </dependency>
-    <dependency>
-      <groupId>io.micrometer</groupId>
-      <artifactId>micrometer-registry-prometheus</artifactId>
-      <version>1.5.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot</artifactId>
-      <version>2.3.12.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-actuator</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-actuator-autoconfigure</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-autoconfigure</artifactId>
-      <version>2.3.12.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-autoconfigure</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-      <version>2.4.13</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-aop</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-cache</artifactId>
-      <version>2.4.13</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jpa</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-redis</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-jdbc</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-json</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-logging</artifactId>
-      <version>2.3.12.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-logging</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-validation</artifactId>
-      <version>2.3.12.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-validation</artifactId>
-      <version>2.4.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-      <version>2.3.12.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>com.zaxxer</groupId>
-      <artifactId>HikariCP</artifactId>
-      <version>3.4.5</version>
-    </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
-      <version>4.0.1</version>
-    </dependency>
-    <dependency>
-      <groupId>jakarta.servlet</groupId>
-      <artifactId>jakarta.servlet-api</artifactId>
-      <version>4.0.4</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-api</artifactId>
-      <version>1.34.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-api</artifactId>
-      <version>1.44.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-context</artifactId>
-      <version>1.44.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-core</artifactId>
-      <version>1.34.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-core</artifactId>
-      <version>1.44.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-netty</artifactId>
-      <version>1.34.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-netty</artifactId>
-      <version>1.44.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-protobuf</artifactId>
-      <version>1.34.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-protobuf</artifactId>
-      <version>1.44.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-protobuf-lite</artifactId>
-      <version>1.34.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-protobuf-lite</artifactId>
-      <version>1.44.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-stub</artifactId>
-      <version>1.34.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-stub</artifactId>
-      <version>1.44.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.grpc</groupId>
-      <artifactId>grpc-testing</artifactId>
-      <version>1.44.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.aliyun</groupId>
-      <artifactId>aliyun-java-sdk-core</artifactId>
-      <version>4.5.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.logging</groupId>
-      <artifactId>jboss-logging</artifactId>
-      <version>3.4.2.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>io.undertow</groupId>
-      <artifactId>undertow-core</artifactId>
-      <version>2.2.15.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.undertow</groupId>
-      <artifactId>undertow-servlet</artifactId>
-      <version>2.2.15.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.undertow</groupId>
-      <artifactId>undertow-websockets-jsr</artifactId>
-      <version>2.2.15.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.chinamobile.cmos</groupId>
-      <artifactId>sms-core</artifactId>
-      <version>2.1.12.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
-      <version>3.10</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-text</artifactId>
-      <version>1.9</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.vintage</groupId>
-      <artifactId>junit-vintage-engine</artifactId>
-      <version>5.6.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>mockwebserver</artifactId>
-      <version>3.14.9</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>okhttp</artifactId>
-      <version>3.14.9</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>jcl-over-slf4j</artifactId>
-      <version>1.7.32</version>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>jul-to-slf4j</artifactId>
-      <version>1.7.30</version>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>jul-to-slf4j</artifactId>
-      <version>1.7.32</version>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>1.7.30</version>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>1.7.32</version>
-    </dependency>
-    <dependency>
-      <groupId>io.swagger</groupId>
-      <artifactId>swagger-annotations</artifactId>
-      <version>1.5.22</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.shell</groupId>
-      <artifactId>spring-shell-starter</artifactId>
-      <version>2.0.1.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-core</artifactId>
-      <version>5.4.32.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-annotations</artifactId>
-      <version>2.11.4</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-annotations</artifactId>
-      <version>2.12.7</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-core</artifactId>
-      <version>2.11.4</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-core</artifactId>
-      <version>2.12.7</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.11.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.11.4</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.12.7</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.module</groupId>
-      <artifactId>jackson-module-parameter-names</artifactId>
-      <version>2.11.4</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.module</groupId>
-      <artifactId>jackson-module-parameter-names</artifactId>
-      <version>2.12.7</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>jaxen</groupId>
-      <artifactId>jaxen</artifactId>
-      <version>1.2.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.ai</groupId>
-      <artifactId>nc-common-um</artifactId>
-      <version>5.0.0-20220915.005636-24</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.ai</groupId>
-      <artifactId>nc-notifier-common</artifactId>
-      <version>4.7.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.ai</groupId>
-      <artifactId>nc-notifier-contract-grpc</artifactId>
-      <version>4.7.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.7</version>
-    </dependency>
-    <dependency>
-      <groupId>com.hazelcast</groupId>
-      <artifactId>hazelcast</artifactId>
-      <version>5.1.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>jakarta.annotation</groupId>
-      <artifactId>jakarta.annotation-api</artifactId>
-      <version>1.3.5</version>
-    </dependency>
-    <dependency>
-      <groupId>com.baomidou</groupId>
-      <artifactId>mybatis-plus</artifactId>
-      <version>3.3.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.baomidou</groupId>
-      <artifactId>mybatis-plus-annotation</artifactId>
-      <version>3.3.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.baomidou</groupId>
-      <artifactId>mybatis-plus-boot-starter</artifactId>
-      <version>3.3.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.baomidou</groupId>
-      <artifactId>mybatis-plus-core</artifactId>
-      <version>3.3.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.baomidou</groupId>
-      <artifactId>mybatis-plus-extension</artifactId>
-      <version>3.3.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.threads</groupId>
-      <artifactId>jboss-threads</artifactId>
-      <version>3.1.0.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-logging</groupId>
-      <artifactId>commons-logging</artifactId>
-      <version>1.2</version>
-    </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.20</version>
-    </dependency>
-    <dependency>
-      <groupId>io.reactivex</groupId>
-      <artifactId>rxjava</artifactId>
-      <version>1.3.8</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-commons</artifactId>
-      <version>2.2.2.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-commons</artifactId>
-      <version>3.0.6</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-context</artifactId>
-      <version>2.2.2.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-context</artifactId>
-      <version>3.0.6</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-loadbalancer</artifactId>
-      <version>3.0.6</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-netflix-archaius</artifactId>
-      <version>2.2.2.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-netflix-ribbon</artifactId>
-      <version>2.2.2.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-openfeign-core</artifactId>
-      <version>3.0.7</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter</artifactId>
-      <version>2.2.2.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter</artifactId>
-      <version>3.0.6</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-archaius</artifactId>
-      <version>2.2.2.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-      <version>2.2.2.RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-openfeign</artifactId>
-      <version>3.0.7</version>
-    </dependency>
-    <dependency>
-      <groupId>jakarta.validation</groupId>
-      <artifactId>jakarta.validation-api</artifactId>
-      <version>2.0.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jsmpp</groupId>
-      <artifactId>jsmpp</artifactId>
-      <version>2.3.10</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.attoparser</groupId>
-      <artifactId>attoparser</artifactId>
-      <version>2.0.5.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>fastjson</artifactId>
-      <version>1.2.83</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>transmittable-thread-local</artifactId>
-      <version>2.11.4</version>
-    </dependency>
-    <dependency>
-      <groupId>net.bytebuddy</groupId>
-      <artifactId>byte-buddy</artifactId>
-      <version>1.10.22</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.aspectj</groupId>
-      <artifactId>aspectjrt</artifactId>
-      <version>1.9.7</version>
-    </dependency>
-    <dependency>
-      <groupId>org.aspectj</groupId>
-      <artifactId>aspectjweaver</artifactId>
-      <version>1.9.7</version>
-    </dependency>
-    <dependency>
-      <groupId>com.googlecode.concurrentlinkedhashmap</groupId>
-      <artifactId>concurrentlinkedhashmap-lru</artifactId>
-      <version>1.4.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.simplejavamail</groupId>
-      <artifactId>batch-module</artifactId>
-      <version>6.4.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.simplejavamail</groupId>
-      <artifactId>simple-java-mail</artifactId>
-      <version>6.4.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.prometheus</groupId>
-      <artifactId>simpleclient</artifactId>
-      <version>0.5.0</version>
-    </dependency>
-    <dependency>
-      <groupId>io.prometheus</groupId>
-      <artifactId>simpleclient</artifactId>
-      <version>0.8.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>cn.hutool</groupId>
-      <artifactId>hutool-all</artifactId>
-      <version>5.3.7</version>
-    </dependency>
-    <dependency>
-      <groupId>soap</groupId>
-      <artifactId>soap</artifactId>
-      <version>2.3.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml</groupId>
-      <artifactId>classmate</artifactId>
-      <version>1.5.1</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-configuration</groupId>
-      <artifactId>commons-configuration</artifactId>
-      <version>1.8</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>failureaccess</artifactId>
-      <version>1.0.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>30.1-jre</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>30.1.1-android</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>listenablefuture</artifactId>
-      <version>9999.0-empty-to-avoid-conflict-with-guava</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.code.gson</groupId>
-      <artifactId>gson</artifactId>
-      <version>2.8.9</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jline</groupId>
-      <artifactId>jline</artifactId>
-      <version>3.4.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.datatype</groupId>
-      <artifactId>jackson-datatype-jdk8</artifactId>
-      <version>2.11.4</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.datatype</groupId>
-      <artifactId>jackson-datatype-jdk8</artifactId>
-      <version>2.12.7</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.datatype</groupId>
-      <artifactId>jackson-datatype-jsr310</artifactId>
-      <version>2.11.4</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.datatype</groupId>
-      <artifactId>jackson-datatype-jsr310</artifactId>
-      <version>2.12.7</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.sun.mail</groupId>
-      <artifactId>jakarta.mail</artifactId>
-      <version>1.6.7</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.yaml</groupId>
-      <artifactId>snakeyaml</artifactId>
-      <version>1.26</version>
-    </dependency>
-    <dependency>
-      <groupId>org.yaml</groupId>
-      <artifactId>snakeyaml</artifactId>
-      <version>1.27</version>
-    </dependency>
-    <dependency>
-      <groupId>io.projectreactor.addons</groupId>
-      <artifactId>reactor-extra</artifactId>
-      <version>3.4.5</version>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.nacos</groupId>
-      <artifactId>nacos-api</artifactId>
-      <version>1.4.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.nacos</groupId>
-      <artifactId>nacos-api</artifactId>
-      <version>1.4.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.nacos</groupId>
-      <artifactId>nacos-client</artifactId>
-      <version>1.4.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.nacos</groupId>
-      <artifactId>nacos-client</artifactId>
-      <version>1.4.2</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.nacos</groupId>
-      <artifactId>nacos-common</artifactId>
-      <version>1.4.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba.nacos</groupId>
-      <artifactId>nacos-common</artifactId>
-      <version>1.4.2</version>
-    </dependency>
-    <dependency>
-      <groupId>jakarta.persistence</groupId>
-      <artifactId>jakarta.persistence-api</artifactId>
-      <version>2.2.3</version>
-    </dependency>
-    <dependency>
-      <groupId>io.github.openfeign</groupId>
-      <artifactId>feign-core</artifactId>
-      <version>10.12</version>
-    </dependency>
-    <dependency>
-      <groupId>io.github.openfeign</groupId>
-      <artifactId>feign-httpclient</artifactId>
-      <version>11.1</version>
-    </dependency>
-    <dependency>
-      <groupId>io.github.openfeign</groupId>
-      <artifactId>feign-slf4j</artifactId>
-      <version>10.12</version>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish</groupId>
-      <artifactId>jakarta.el</artifactId>
-      <version>3.0.3</version>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish</groupId>
-      <artifactId>jakarta.el</artifactId>
-      <version>3.0.4</version>
-    </dependency>
-    <dependency>
-      <groupId>io.minio</groupId>
-      <artifactId>minio</artifactId>
-      <version>8.2.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>5.6.3</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-all</artifactId>
-      <version>4.1.68.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-buffer</artifactId>
-      <version>4.1.65.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-buffer</artifactId>
-      <version>4.1.68.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-codec</artifactId>
-      <version>4.1.65.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-codec</artifactId>
-      <version>4.1.68.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-codec-http</artifactId>
-      <version>4.1.65.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-codec-http</artifactId>
-      <version>4.1.68.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-codec-http2</artifactId>
-      <version>4.1.65.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-codec-http2</artifactId>
-      <version>4.1.68.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-common</artifactId>
-      <version>4.1.65.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-common</artifactId>
-      <version>4.1.68.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-handler</artifactId>
-      <version>4.1.65.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-handler</artifactId>
-      <version>4.1.68.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-resolver</artifactId>
-      <version>4.1.68.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-transport</artifactId>
-      <version>4.1.65.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-transport</artifactId>
-      <version>4.1.68.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-transport-native-epoll</artifactId>
-      <version>4.1.68.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-transport-native-kqueue</artifactId>
-      <version>4.1.70.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.github.openfeign.form</groupId>
-      <artifactId>feign-form-spring</artifactId>
-      <version>3.8.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.netflix.archaius</groupId>
-      <artifactId>archaius-core</artifactId>
-      <version>0.7.6</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.freemarker</groupId>
-      <artifactId>freemarker</artifactId>
-      <version>2.3.30</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
-      <version>RELEASE</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <version>2.1.210</version>
-    </dependency>   
+<dependency>
+  <groupId>org.assertj</groupId>
+  <artifactId>assertj-core</artifactId>
+  <version>3.18.1</version>
+  <scope>test</scope>
+</dependency>
+<dependency>
+  <groupId>org.thymeleaf</groupId>
+  <artifactId>thymeleaf</artifactId>
+  <version>3.0.14.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.thymeleaf</groupId>
+  <artifactId>thymeleaf-spring5</artifactId>
+  <version>3.0.14.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.httpcomponents</groupId>
+  <artifactId>httpasyncclient</artifactId>
+  <version>4.1.4</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.httpcomponents</groupId>
+  <artifactId>httpclient</artifactId>
+  <version>4.5.13</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.httpcomponents</groupId>
+  <artifactId>httpcore</artifactId>
+  <version>4.4.14</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.httpcomponents</groupId>
+  <artifactId>httpcore-nio</artifactId>
+  <version>4.4.14</version>
+</dependency>
+<dependency>
+  <groupId>com.google.api.grpc</groupId>
+  <artifactId>proto-google-common-protos</artifactId>
+  <version>1.17.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.google.api.grpc</groupId>
+  <artifactId>proto-google-common-protos</artifactId>
+  <version>2.0.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.google.protobuf</groupId>
+  <artifactId>protobuf-java</artifactId>
+  <version>3.12.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.google.protobuf</groupId>
+  <artifactId>protobuf-java</artifactId>
+  <version>3.19.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.google.protobuf</groupId>
+  <artifactId>protobuf-java</artifactId>
+  <version>3.6.1</version>
+</dependency>
+<dependency>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-classic</artifactId>
+  <version>1.2.3</version>
+</dependency>
+<dependency>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-classic</artifactId>
+  <version>1.2.7</version>
+</dependency>
+<dependency>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-core</artifactId>
+  <version>1.2.3</version>
+</dependency>
+<dependency>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-core</artifactId>
+  <version>1.2.7</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-annotation-aspectj</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-cluster-client-default</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-cluster-common-default</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-cluster-server-default</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-core</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-parameter-flow-control</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-reactor-adapter</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-spring-webflux-adapter</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-spring-webmvc-adapter</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-transport-common</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.csp</groupId>
+  <artifactId>sentinel-transport-simple-http</artifactId>
+  <version>1.8.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.unbescape</groupId>
+  <artifactId>unbescape</artifactId>
+  <version>1.1.6.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.tomcat.embed</groupId>
+  <artifactId>tomcat-embed-core</artifactId>
+  <version>9.0.46</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.tomcat.embed</groupId>
+  <artifactId>tomcat-embed-websocket</artifactId>
+  <version>9.0.46</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.checkerframework</groupId>
+  <artifactId>checker-compat-qual</artifactId>
+  <version>2.5.5</version>
+</dependency>
+<dependency>
+  <groupId>org.checkerframework</groupId>
+  <artifactId>checker-qual</artifactId>
+  <version>3.5.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.postgresql</groupId>
+  <artifactId>postgresql</artifactId>
+  <version>42.4.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>commons-lang</groupId>
+  <artifactId>commons-lang</artifactId>
+  <version>2.6</version>
+</dependency>
+<dependency>
+  <groupId>org.hibernate.validator</groupId>
+  <artifactId>hibernate-validator</artifactId>
+  <version>6.1.7.Final</version>
+</dependency>
+<dependency>
+  <groupId>com.netflix.ribbon</groupId>
+  <artifactId>ribbon</artifactId>
+  <version>2.3.0</version>
+</dependency>
+<dependency>
+  <groupId>com.netflix.ribbon</groupId>
+  <artifactId>ribbon-core</artifactId>
+  <version>2.3.0</version>
+</dependency>
+<dependency>
+  <groupId>com.netflix.ribbon</groupId>
+  <artifactId>ribbon-httpclient</artifactId>
+  <version>2.3.0</version>
+</dependency>
+<dependency>
+  <groupId>com.netflix.ribbon</groupId>
+  <artifactId>ribbon-loadbalancer</artifactId>
+  <version>2.3.0</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-aop</artifactId>
+  <version>5.2.15.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-aop</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-aspects</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-beans</artifactId>
+  <version>5.2.15.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-beans</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-context</artifactId>
+  <version>5.2.15.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-context</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-context-support</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-core</artifactId>
+  <version>5.2.15.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-core</artifactId>
+  <version>5.3.13</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-expression</artifactId>
+  <version>5.2.15.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-expression</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-jcl</artifactId>
+  <version>5.2.15.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-jcl</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-jdbc</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-orm</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-oxm</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-tx</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-web</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-webmvc</artifactId>
+  <version>5.3.13</version>
+</dependency>
+<dependency>
+  <groupId>org.wildfly.common</groupId>
+  <artifactId>wildfly-common</artifactId>
+  <version>1.5.4.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.hibernate.common</groupId>
+  <artifactId>hibernate-commons-annotations</artifactId>
+  <version>5.1.2.Final</version>
+</dependency>
+<dependency>
+  <groupId>jakarta.websocket</groupId>
+  <artifactId>jakarta.websocket-api</artifactId>
+  <version>1.1.2</version>
+</dependency>
+<dependency>
+  <groupId>org.thymeleaf.extras</groupId>
+  <artifactId>thymeleaf-extras-java8time</artifactId>
+  <version>3.0.4.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.stoyanr</groupId>
+  <artifactId>evictor</artifactId>
+  <version>1.0.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.wildfly.client</groupId>
+  <artifactId>wildfly-client-config</artifactId>
+  <version>1.0.1.Final</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.axis2</groupId>
+  <artifactId>axis2</artifactId>
+  <version>1.6.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.axis2</groupId>
+  <artifactId>axis2-adb</artifactId>
+  <version>1.6.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.axis2</groupId>
+  <artifactId>axis2-kernel</artifactId>
+  <version>1.6.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.axis2</groupId>
+  <artifactId>axis2-transport-http</artifactId>
+  <version>1.6.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.axis2</groupId>
+  <artifactId>axis2-transport-local</artifactId>
+  <version>1.6.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.github.jsqlparser</groupId>
+  <artifactId>jsqlparser</artifactId>
+  <version>3.1</version>
+</dependency>
+<dependency>
+  <groupId>org.codehaus.groovy</groupId>
+  <artifactId>groovy</artifactId>
+  <version>3.0.9</version>
+</dependency>
+<dependency>
+  <groupId>com.oracle.database.jdbc</groupId>
+  <artifactId>ojdbc8</artifactId>
+  <version>19.8.0.0</version>
+</dependency>
+<dependency>
+  <groupId>jakarta.transaction</groupId>
+  <artifactId>jakarta.transaction-api</artifactId>
+  <version>1.3.3</version>
+</dependency>
+<dependency>
+  <groupId>org.bouncycastle</groupId>
+  <artifactId>bcpkix-jdk15on</artifactId>
+  <version>1.67</version>
+</dependency>
+<dependency>
+  <groupId>org.flywaydb</groupId>
+  <artifactId>flyway-core</artifactId>
+  <version>6.4.4</version>
+</dependency>
+<dependency>
+  <groupId>org.jboss.xnio</groupId>
+  <artifactId>xnio-api</artifactId>
+  <version>3.8.7.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.lettuce</groupId>
+  <artifactId>lettuce-core</artifactId>
+  <version>6.0.8.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.mockito</groupId>
+  <artifactId>mockito-core</artifactId>
+  <version>2.16.0</version>
+</dependency>
+<dependency>
+  <groupId>joda-time</groupId>
+  <artifactId>joda-time</artifactId>
+  <version>2.10.6</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.dom4j</groupId>
+  <artifactId>dom4j</artifactId>
+  <version>2.1.3</version>
+</dependency>
+<dependency>
+  <groupId>antlr</groupId>
+  <artifactId>antlr</artifactId>
+  <version>2.7.7</version>
+</dependency>
+<dependency>
+  <groupId>com.oracle.database.nls</groupId>
+  <artifactId>orai18n</artifactId>
+  <version>19.8.0.0</version>
+</dependency>
+<dependency>
+  <groupId>de.codecentric</groupId>
+  <artifactId>spring-boot-admin-client</artifactId>
+  <version>2.3.1</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.security</groupId>
+  <artifactId>spring-security-core</artifactId>
+  <version>5.4.10</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.security</groupId>
+  <artifactId>spring-security-crypto</artifactId>
+  <version>5.3.9.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.security</groupId>
+  <artifactId>spring-security-crypto</artifactId>
+  <version>5.4.10</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.security</groupId>
+  <artifactId>spring-security-rsa</artifactId>
+  <version>1.0.11.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.security</groupId>
+  <artifactId>spring-security-rsa</artifactId>
+  <version>1.0.9.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>net.lingala.zip4j</groupId>
+  <artifactId>zip4j</artifactId>
+  <version>2.6.2</version>
+</dependency>
+<dependency>
+  <groupId>com.github.ulisesbocchio</groupId>
+  <artifactId>jasypt-spring-boot</artifactId>
+  <version>1.16</version>
+</dependency>
+<dependency>
+  <groupId>com.github.ulisesbocchio</groupId>
+  <artifactId>jasypt-spring-boot-starter</artifactId>
+  <version>1.16</version>
+</dependency>
+<dependency>
+  <groupId>com.google.errorprone</groupId>
+  <artifactId>error_prone_annotations</artifactId>
+  <version>2.3.4</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.google.errorprone</groupId>
+  <artifactId>error_prone_annotations</artifactId>
+  <version>2.5.1</version>
+</dependency>
+<dependency>
+  <groupId>com.google.errorprone</groupId>
+  <artifactId>error_prone_annotations</artifactId>
+  <version>2.9.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.squareup.okio</groupId>
+  <artifactId>okio</artifactId>
+  <version>1.17.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.mybatis</groupId>
+  <artifactId>mybatis</artifactId>
+  <version>3.5.6</version>
+</dependency>
+<dependency>
+  <groupId>org.mybatis</groupId>
+  <artifactId>mybatis-spring</artifactId>
+  <version>2.0.4</version>
+</dependency>
+<dependency>
+  <groupId>org.awaitility</groupId>
+  <artifactId>awaitility</artifactId>
+  <version>3.0.0</version>
+</dependency>
+<dependency>
+  <groupId>org.reactivestreams</groupId>
+  <artifactId>reactive-streams</artifactId>
+  <version>1.0.3</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.data</groupId>
+  <artifactId>spring-data-commons</artifactId>
+  <version>2.4.15</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.data</groupId>
+  <artifactId>spring-data-jpa</artifactId>
+  <version>2.4.15</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.data</groupId>
+  <artifactId>spring-data-keyvalue</artifactId>
+  <version>2.4.15</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.data</groupId>
+  <artifactId>spring-data-redis</artifactId>
+  <version>2.4.15</version>
+</dependency>
+<dependency>
+  <groupId>org.hdrhistogram</groupId>
+  <artifactId>HdrHistogram</artifactId>
+  <version>2.1.12</version>
+</dependency>
+<dependency>
+  <groupId>org.javassist</groupId>
+  <artifactId>javassist</artifactId>
+  <version>3.27.0-GA</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.spring</groupId>
+  <artifactId>spring-context-support</artifactId>
+  <version>1.0.10</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.spring</groupId>
+  <artifactId>spring-context-support</artifactId>
+  <version>1.0.6</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.glassfish.jaxb</groupId>
+  <artifactId>jaxb-runtime</artifactId>
+  <version>2.3.5</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.cloud</groupId>
+  <artifactId>spring-cloud-alibaba-commons</artifactId>
+  <version>2021.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.cloud</groupId>
+  <artifactId>spring-cloud-alibaba-sentinel-datasource</artifactId>
+  <version>2021.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.cloud</groupId>
+  <artifactId>spring-cloud-circuitbreaker-sentinel</artifactId>
+  <version>2021.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.cloud</groupId>
+  <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+  <version>2021.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.cloud</groupId>
+  <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+  <version>2021.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>commons-codec</groupId>
+  <artifactId>commons-codec</artifactId>
+  <version>1.14</version>
+</dependency>
+<dependency>
+  <groupId>commons-codec</groupId>
+  <artifactId>commons-codec</artifactId>
+  <version>1.15</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.logging.log4j</groupId>
+  <artifactId>log4j-api</artifactId>
+  <version>2.13.3</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.logging.log4j</groupId>
+  <artifactId>log4j-api</artifactId>
+  <version>2.17.1</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.logging.log4j</groupId>
+  <artifactId>log4j-to-slf4j</artifactId>
+  <version>2.13.3</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.logging.log4j</groupId>
+  <artifactId>log4j-to-slf4j</artifactId>
+  <version>2.17.1</version>
+</dependency>
+<dependency>
+  <groupId>org.jboss</groupId>
+  <artifactId>jandex</artifactId>
+  <version>2.2.3.Final</version>
+</dependency>
+<dependency>
+  <groupId>org.jasypt</groupId>
+  <artifactId>jasypt</artifactId>
+  <version>1.9.2</version>
+</dependency>
+<dependency>
+  <groupId>io.projectreactor</groupId>
+  <artifactId>reactor-core</artifactId>
+  <version>3.4.12</version>
+</dependency>
+<dependency>
+  <groupId>com.github.brake.threegpp</groupId>
+  <artifactId>telecom-charsets</artifactId>
+  <version>1.0.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.rest-assured</groupId>
+  <artifactId>rest-assured</artifactId>
+  <version>3.3.0</version>
+</dependency>
+<dependency>
+  <groupId>com.google.j2objc</groupId>
+  <artifactId>j2objc-annotations</artifactId>
+  <version>1.3</version>
+</dependency>
+<dependency>
+  <groupId>io.micrometer</groupId>
+  <artifactId>micrometer-core</artifactId>
+  <version>1.6.13</version>
+</dependency>
+<dependency>
+  <groupId>io.micrometer</groupId>
+  <artifactId>micrometer-registry-prometheus</artifactId>
+  <version>1.5.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot</artifactId>
+  <version>2.3.12.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-actuator</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-actuator-autoconfigure</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-autoconfigure</artifactId>
+  <version>2.3.12.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-autoconfigure</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter</artifactId>
+  <version>2.4.13</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-aop</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-cache</artifactId>
+  <version>2.4.13</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-data-jpa</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-data-redis</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-jdbc</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-json</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-logging</artifactId>
+  <version>2.3.12.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-logging</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-test</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-validation</artifactId>
+  <version>2.3.12.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-validation</artifactId>
+  <version>2.4.13</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-web</artifactId>
+  <version>2.3.12.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>com.zaxxer</groupId>
+  <artifactId>HikariCP</artifactId>
+  <version>3.4.5</version>
+</dependency>
+<dependency>
+  <groupId>javax.servlet</groupId>
+  <artifactId>javax.servlet-api</artifactId>
+  <version>4.0.1</version>
+</dependency>
+<dependency>
+  <groupId>jakarta.servlet</groupId>
+  <artifactId>jakarta.servlet-api</artifactId>
+  <version>4.0.4</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-api</artifactId>
+  <version>1.34.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-api</artifactId>
+  <version>1.44.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-context</artifactId>
+  <version>1.44.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-core</artifactId>
+  <version>1.34.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-core</artifactId>
+  <version>1.44.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-netty</artifactId>
+  <version>1.34.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-netty</artifactId>
+  <version>1.44.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-protobuf</artifactId>
+  <version>1.34.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-protobuf</artifactId>
+  <version>1.44.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-protobuf-lite</artifactId>
+  <version>1.34.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-protobuf-lite</artifactId>
+  <version>1.44.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-stub</artifactId>
+  <version>1.34.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-stub</artifactId>
+  <version>1.44.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.grpc</groupId>
+  <artifactId>grpc-testing</artifactId>
+  <version>1.44.1</version>
+  <scope>test</scope>
+</dependency>
+<dependency>
+  <groupId>com.aliyun</groupId>
+  <artifactId>aliyun-java-sdk-core</artifactId>
+  <version>4.5.3</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.jboss.logging</groupId>
+  <artifactId>jboss-logging</artifactId>
+  <version>3.4.2.Final</version>
+</dependency>
+<dependency>
+  <groupId>io.undertow</groupId>
+  <artifactId>undertow-core</artifactId>
+  <version>2.2.19.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.undertow</groupId>
+  <artifactId>undertow-servlet</artifactId>
+  <version>2.2.19.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.undertow</groupId>
+  <artifactId>undertow-websockets-jsr</artifactId>
+  <version>2.2.19.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.chinamobile.cmos</groupId>
+  <artifactId>sms-core</artifactId>
+  <version>2.1.12.1</version>
+  <scope>test</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-lang3</artifactId>
+  <version>3.10</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-text</artifactId>
+  <version>1.9</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.junit.vintage</groupId>
+  <artifactId>junit-vintage-engine</artifactId>
+  <version>5.6.3</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.squareup.okhttp3</groupId>
+  <artifactId>mockwebserver</artifactId>
+  <version>3.14.9</version>
+  <scope>test</scope>
+</dependency>
+<dependency>
+  <groupId>com.squareup.okhttp3</groupId>
+  <artifactId>okhttp</artifactId>
+  <version>3.14.9</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>jcl-over-slf4j</artifactId>
+  <version>1.7.32</version>
+</dependency>
+<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>jul-to-slf4j</artifactId>
+  <version>1.7.30</version>
+</dependency>
+<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>jul-to-slf4j</artifactId>
+  <version>1.7.32</version>
+</dependency>
+<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-api</artifactId>
+  <version>1.7.30</version>
+</dependency>
+<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-api</artifactId>
+  <version>1.7.32</version>
+</dependency>
+<dependency>
+  <groupId>io.swagger</groupId>
+  <artifactId>swagger-annotations</artifactId>
+  <version>1.5.22</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.shell</groupId>
+  <artifactId>spring-shell-starter</artifactId>
+  <version>2.0.1.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.hibernate</groupId>
+  <artifactId>hibernate-core</artifactId>
+  <version>5.4.32.Final</version>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-annotations</artifactId>
+  <version>2.11.4</version>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-annotations</artifactId>
+  <version>2.12.7</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-core</artifactId>
+  <version>2.11.4</version>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-core</artifactId>
+  <version>2.12.7</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-databind</artifactId>
+  <version>2.11.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-databind</artifactId>
+  <version>2.11.4</version>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-databind</artifactId>
+  <version>2.12.7</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.module</groupId>
+  <artifactId>jackson-module-parameter-names</artifactId>
+  <version>2.11.4</version>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.module</groupId>
+  <artifactId>jackson-module-parameter-names</artifactId>
+  <version>2.12.7</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>jaxen</groupId>
+  <artifactId>jaxen</artifactId>
+  <version>1.2.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.ai</groupId>
+  <artifactId>nc-common-um</artifactId>
+  <version>5.0.0-20220915.005636-24</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.ai</groupId>
+  <artifactId>nc-notifier-common</artifactId>
+  <version>4.7.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.ai</groupId>
+  <artifactId>nc-notifier-contract-grpc</artifactId>
+  <version>4.7.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>commons-io</groupId>
+  <artifactId>commons-io</artifactId>
+  <version>2.7</version>
+</dependency>
+<dependency>
+  <groupId>com.hazelcast</groupId>
+  <artifactId>hazelcast</artifactId>
+  <version>5.1.3</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>jakarta.annotation</groupId>
+  <artifactId>jakarta.annotation-api</artifactId>
+  <version>1.3.5</version>
+</dependency>
+<dependency>
+  <groupId>com.baomidou</groupId>
+  <artifactId>mybatis-plus</artifactId>
+  <version>3.3.2</version>
+</dependency>
+<dependency>
+  <groupId>com.baomidou</groupId>
+  <artifactId>mybatis-plus-annotation</artifactId>
+  <version>3.3.2</version>
+</dependency>
+<dependency>
+  <groupId>com.baomidou</groupId>
+  <artifactId>mybatis-plus-boot-starter</artifactId>
+  <version>3.3.2</version>
+</dependency>
+<dependency>
+  <groupId>com.baomidou</groupId>
+  <artifactId>mybatis-plus-core</artifactId>
+  <version>3.3.2</version>
+</dependency>
+<dependency>
+  <groupId>com.baomidou</groupId>
+  <artifactId>mybatis-plus-extension</artifactId>
+  <version>3.3.2</version>
+</dependency>
+<dependency>
+  <groupId>org.jboss.threads</groupId>
+  <artifactId>jboss-threads</artifactId>
+  <version>3.1.0.Final</version>
+</dependency>
+<dependency>
+  <groupId>commons-logging</groupId>
+  <artifactId>commons-logging</artifactId>
+  <version>1.2</version>
+</dependency>
+<dependency>
+  <groupId>mysql</groupId>
+  <artifactId>mysql-connector-java</artifactId>
+  <version>8.0.20</version>
+</dependency>
+<dependency>
+  <groupId>io.reactivex</groupId>
+  <artifactId>rxjava</artifactId>
+  <version>1.3.8</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-commons</artifactId>
+  <version>2.2.2.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-commons</artifactId>
+  <version>3.0.6</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-context</artifactId>
+  <version>2.2.2.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-context</artifactId>
+  <version>3.0.6</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-loadbalancer</artifactId>
+  <version>3.0.6</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-netflix-archaius</artifactId>
+  <version>2.2.2.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-netflix-ribbon</artifactId>
+  <version>2.2.2.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-openfeign-core</artifactId>
+  <version>3.0.7</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter</artifactId>
+  <version>2.2.2.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter</artifactId>
+  <version>3.0.6</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-netflix-archaius</artifactId>
+  <version>2.2.2.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+  <version>2.2.2.RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-openfeign</artifactId>
+  <version>3.0.7</version>
+</dependency>
+<dependency>
+  <groupId>jakarta.validation</groupId>
+  <artifactId>jakarta.validation-api</artifactId>
+  <version>2.0.2</version>
+</dependency>
+<dependency>
+  <groupId>org.jsmpp</groupId>
+  <artifactId>jsmpp</artifactId>
+  <version>2.3.10</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.attoparser</groupId>
+  <artifactId>attoparser</artifactId>
+  <version>2.0.5.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba</groupId>
+  <artifactId>fastjson</artifactId>
+  <version>1.2.83</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba</groupId>
+  <artifactId>transmittable-thread-local</artifactId>
+  <version>2.11.4</version>
+</dependency>
+<dependency>
+  <groupId>net.bytebuddy</groupId>
+  <artifactId>byte-buddy</artifactId>
+  <version>1.10.22</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.aspectj</groupId>
+  <artifactId>aspectjrt</artifactId>
+  <version>1.9.7</version>
+</dependency>
+<dependency>
+  <groupId>org.aspectj</groupId>
+  <artifactId>aspectjweaver</artifactId>
+  <version>1.9.7</version>
+</dependency>
+<dependency>
+  <groupId>com.googlecode.concurrentlinkedhashmap</groupId>
+  <artifactId>concurrentlinkedhashmap-lru</artifactId>
+  <version>1.4.2</version>
+</dependency>
+<dependency>
+  <groupId>org.simplejavamail</groupId>
+  <artifactId>batch-module</artifactId>
+  <version>6.4.3</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.simplejavamail</groupId>
+  <artifactId>simple-java-mail</artifactId>
+  <version>6.4.3</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.prometheus</groupId>
+  <artifactId>simpleclient</artifactId>
+  <version>0.5.0</version>
+</dependency>
+<dependency>
+  <groupId>io.prometheus</groupId>
+  <artifactId>simpleclient</artifactId>
+  <version>0.8.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>cn.hutool</groupId>
+  <artifactId>hutool-all</artifactId>
+  <version>5.3.7</version>
+</dependency>
+<dependency>
+  <groupId>soap</groupId>
+  <artifactId>soap</artifactId>
+  <version>2.3.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml</groupId>
+  <artifactId>classmate</artifactId>
+  <version>1.5.1</version>
+</dependency>
+<dependency>
+  <groupId>commons-configuration</groupId>
+  <artifactId>commons-configuration</artifactId>
+  <version>1.8</version>
+</dependency>
+<dependency>
+  <groupId>com.google.guava</groupId>
+  <artifactId>failureaccess</artifactId>
+  <version>1.0.1</version>
+</dependency>
+<dependency>
+  <groupId>com.google.guava</groupId>
+  <artifactId>guava</artifactId>
+  <version>30.1-jre</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.google.guava</groupId>
+  <artifactId>guava</artifactId>
+  <version>30.1.1-android</version>
+</dependency>
+<dependency>
+  <groupId>com.google.guava</groupId>
+  <artifactId>listenablefuture</artifactId>
+  <version>9999.0-empty-to-avoid-conflict-with-guava</version>
+</dependency>
+<dependency>
+  <groupId>com.google.code.gson</groupId>
+  <artifactId>gson</artifactId>
+  <version>2.8.9</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.jline</groupId>
+  <artifactId>jline</artifactId>
+  <version>3.4.0</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.datatype</groupId>
+  <artifactId>jackson-datatype-jdk8</artifactId>
+  <version>2.11.4</version>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.datatype</groupId>
+  <artifactId>jackson-datatype-jdk8</artifactId>
+  <version>2.12.7</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.datatype</groupId>
+  <artifactId>jackson-datatype-jsr310</artifactId>
+  <version>2.11.4</version>
+</dependency>
+<dependency>
+  <groupId>com.fasterxml.jackson.datatype</groupId>
+  <artifactId>jackson-datatype-jsr310</artifactId>
+  <version>2.12.7</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.sun.mail</groupId>
+  <artifactId>jakarta.mail</artifactId>
+  <version>1.6.7</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.yaml</groupId>
+  <artifactId>snakeyaml</artifactId>
+  <version>1.26</version>
+</dependency>
+<dependency>
+  <groupId>org.yaml</groupId>
+  <artifactId>snakeyaml</artifactId>
+  <version>1.31</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.projectreactor.addons</groupId>
+  <artifactId>reactor-extra</artifactId>
+  <version>3.4.5</version>
+</dependency>
+<dependency>
+  <groupId>junit</groupId>
+  <artifactId>junit</artifactId>
+  <version>4.13.1</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.nacos</groupId>
+  <artifactId>nacos-api</artifactId>
+  <version>1.4.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.nacos</groupId>
+  <artifactId>nacos-api</artifactId>
+  <version>1.4.2</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.nacos</groupId>
+  <artifactId>nacos-client</artifactId>
+  <version>1.4.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.nacos</groupId>
+  <artifactId>nacos-client</artifactId>
+  <version>1.4.2</version>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.nacos</groupId>
+  <artifactId>nacos-common</artifactId>
+  <version>1.4.1</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.alibaba.nacos</groupId>
+  <artifactId>nacos-common</artifactId>
+  <version>1.4.2</version>
+</dependency>
+<dependency>
+  <groupId>jakarta.persistence</groupId>
+  <artifactId>jakarta.persistence-api</artifactId>
+  <version>2.2.3</version>
+</dependency>
+<dependency>
+  <groupId>io.github.openfeign</groupId>
+  <artifactId>feign-core</artifactId>
+  <version>10.12</version>
+</dependency>
+<dependency>
+  <groupId>io.github.openfeign</groupId>
+  <artifactId>feign-httpclient</artifactId>
+  <version>11.1</version>
+</dependency>
+<dependency>
+  <groupId>io.github.openfeign</groupId>
+  <artifactId>feign-slf4j</artifactId>
+  <version>10.12</version>
+</dependency>
+<dependency>
+  <groupId>org.glassfish</groupId>
+  <artifactId>jakarta.el</artifactId>
+  <version>3.0.3</version>
+</dependency>
+<dependency>
+  <groupId>org.glassfish</groupId>
+  <artifactId>jakarta.el</artifactId>
+  <version>3.0.4</version>
+</dependency>
+<dependency>
+  <groupId>io.minio</groupId>
+  <artifactId>minio</artifactId>
+  <version>8.2.2</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.junit.jupiter</groupId>
+  <artifactId>junit-jupiter</artifactId>
+  <version>5.6.3</version>
+  <scope>test</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-all</artifactId>
+  <version>4.1.68.Final</version>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-buffer</artifactId>
+  <version>4.1.65.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-buffer</artifactId>
+  <version>4.1.68.Final</version>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-codec</artifactId>
+  <version>4.1.65.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-codec</artifactId>
+  <version>4.1.68.Final</version>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-codec-http</artifactId>
+  <version>4.1.65.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-codec-http</artifactId>
+  <version>4.1.68.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-codec-http2</artifactId>
+  <version>4.1.65.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-codec-http2</artifactId>
+  <version>4.1.68.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-common</artifactId>
+  <version>4.1.65.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-common</artifactId>
+  <version>4.1.68.Final</version>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-handler</artifactId>
+  <version>4.1.65.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-handler</artifactId>
+  <version>4.1.68.Final</version>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-resolver</artifactId>
+  <version>4.1.68.Final</version>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-transport</artifactId>
+  <version>4.1.65.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-transport</artifactId>
+  <version>4.1.68.Final</version>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-transport-native-epoll</artifactId>
+  <version>4.1.68.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-transport-native-kqueue</artifactId>
+  <version>4.1.70.Final</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>io.github.openfeign.form</groupId>
+  <artifactId>feign-form-spring</artifactId>
+  <version>3.8.0</version>
+</dependency>
+<dependency>
+  <groupId>com.netflix.archaius</groupId>
+  <artifactId>archaius-core</artifactId>
+  <version>0.7.6</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.freemarker</groupId>
+  <artifactId>freemarker</artifactId>
+  <version>2.3.30</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.github.spotbugs</groupId>
+  <artifactId>spotbugs-annotations</artifactId>
+  <version>RELEASE</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>com.h2database</groupId>
+  <artifactId>h2</artifactId>
+  <version>2.1.210</version>
+</dependency>       
   </dependencies>
 
 </project>
