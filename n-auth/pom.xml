@@ -784,7 +784,7 @@
       <artifactId>nc-maintain-um</artifactId>
       <version>1.15.4</version>
       <scope>compile</scope>
-    </dependency> 
+    </dependency>
   </dependencies>
 
 </project>
