@@ -78,7 +78,8 @@
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>3.6.1</version>
+      <version>3.19.4</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>jakarta.activation</groupId>
@@ -89,12 +90,14 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>1.2.7</version>
+      <version>1.2.11</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
-      <version>1.2.7</version>
+      <version>1.2.11</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba.csp</groupId>
@@ -591,6 +594,12 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <version>8.0.31</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>org.jacorb</groupId>
       <artifactId>jacorb</artifactId>
       <version>3.9</version>
@@ -605,7 +614,8 @@
     <dependency>
       <groupId>net.lingala.zip4j</groupId>
       <artifactId>zip4j</artifactId>
-      <version>2.6.2</version>
+      <version>2.11.2</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.ulisesbocchio</groupId>
@@ -1291,7 +1301,7 @@
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-core</artifactId>
-      <version>5.2.0-20221222.092814-5</version>
+      <version>5.2.0-20221222.103102-8</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1303,7 +1313,7 @@
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-redis</artifactId>
-      <version>5.2.0-20221222.092953-5</version>
+      <version>5.2.0-20221222.103245-8</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1315,7 +1325,7 @@
     <dependency>
       <groupId>com.ai</groupId>
       <artifactId>nc-common-um</artifactId>
-      <version>5.2.0-20221222.092833-5</version>
+      <version>5.2.0-20221222.103122-8</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1392,11 +1402,6 @@
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
-    </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.20</version>
     </dependency>
     <dependency>
       <groupId>org.apache.kerby</groupId>
