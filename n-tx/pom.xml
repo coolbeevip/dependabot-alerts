@@ -1,34 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    Copyright © 2020 Lei Zhang (zhanglei@apache.org)
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-        http://www.apache.org/licenses/LICENSE-2.0
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<!-- license-maven-plugin automatically created by Thu Mar 09 15:17:01 CST 2023-->
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
-
-  <parent>
-    <groupId>io.github.coolbeevip</groupId>
-    <artifactId>dependabot-alerts</artifactId>
-    <version>0.0.1</version>
-  </parent>
-
-  <artifactId>dependabot-alerts-nc-tx</artifactId>
+  <groupId>io.github.coolbeevip</groupId>
+  <artifactId>coolbeevip</artifactId>
+  <version>5.4.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-pool2</artifactId>
       <version>2.9.0</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -58,20 +45,20 @@
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>3.19.4</version>
-      <scope>compile</scope>
+      <version>3.19.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
       <version>1.2.11</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
       <version>1.2.11</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -87,30 +74,31 @@
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
       <version>2.13.4</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
       <version>2.13.4</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
       <version>2.13.4.2</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-parameter-names</artifactId>
       <version>2.13.4</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.checkerframework</groupId>
-      <artifactId>checker-compat-qual</artifactId>
-      <version>2.5.5</version>
+      <artifactId>checker-qual</artifactId>
+      <version>3.5.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.hibernate.validator</groupId>
@@ -125,17 +113,20 @@
     <dependency>
       <groupId>com.baomidou</groupId>
       <artifactId>mybatis-plus</artifactId>
-      <version>3.3.2</version>
+      <version>3.4.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.baomidou</groupId>
       <artifactId>mybatis-plus-annotation</artifactId>
-      <version>3.3.2</version>
+      <version>3.4.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.baomidou</groupId>
       <artifactId>mybatis-plus-core</artifactId>
-      <version>3.3.2</version>
+      <version>3.4.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jboss.threads</groupId>
@@ -146,67 +137,67 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aspects</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context-support</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-expression</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-orm</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-oxm</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-tx</artifactId>
       <version>5.3.22</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.wildfly.common</groupId>
       <artifactId>wildfly-common</artifactId>
       <version>1.5.4.Final</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.hibernate.common</groupId>
@@ -221,7 +212,8 @@
     <dependency>
       <groupId>com.github.jsqlparser</groupId>
       <artifactId>jsqlparser</artifactId>
-      <version>3.1</version>
+      <version>4.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>jakarta.transaction</groupId>
@@ -231,24 +223,20 @@
     <dependency>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcpkix-jdk15on</artifactId>
-      <version>1.67</version>
+      <version>1.70</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcprov-jdk15on</artifactId>
-      <version>1.67</version>
+      <version>1.70</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.ai.txlcn</groupId>
-      <artifactId>txlcn-tm</artifactId>
-      <version>5.0.2.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.ai.txlcn</groupId>
-      <artifactId>txlcn-txmsg</artifactId>
-      <version>5.0.2.4</version>
-      <scope>compile</scope>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcutil-jdk15on</artifactId>
+      <version>1.70</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.code.findbugs</groupId>
@@ -259,7 +247,7 @@
       <groupId>org.jboss.xnio</groupId>
       <artifactId>xnio-api</artifactId>
       <version>3.8.7.Final</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -315,7 +303,7 @@
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-crypto</artifactId>
       <version>5.4.10</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
@@ -331,12 +319,13 @@
       <groupId>com.sun.activation</groupId>
       <artifactId>jakarta.activation</artifactId>
       <version>1.2.2</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.errorprone</groupId>
       <artifactId>error_prone_annotations</artifactId>
-      <version>2.5.1</version>
+      <version>2.11.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.protostuff</groupId>
@@ -356,12 +345,14 @@
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis-spring</artifactId>
-      <version>2.0.4</version>
+      <version>2.0.5</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.awaitility</groupId>
       <artifactId>awaitility</artifactId>
-      <version>3.0.0</version>
+      <version>4.2.0</version>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.reactivestreams</groupId>
@@ -387,6 +378,12 @@
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-redis</artifactId>
       <version>2.4.15</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+      <version>1.5</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.prometheus</groupId>
@@ -437,19 +434,19 @@
       <groupId>com.alibaba.cloud</groupId>
       <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
       <version>2021.1</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba.cloud</groupId>
       <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
       <version>2021.1</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>it.ozimov</groupId>
       <artifactId>embedded-redis</artifactId>
       <version>0.7.3</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-codec</groupId>
@@ -459,30 +456,32 @@
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
-      <version>2.17.1</version>
+      <version>2.17.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-to-slf4j</artifactId>
-      <version>2.17.1</version>
+      <version>2.17.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jdk8</artifactId>
       <version>2.13.4</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jsr310</artifactId>
       <version>2.13.4</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.sun.mail</groupId>
       <artifactId>jakarta.mail</artifactId>
       <version>1.6.7</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jboss</groupId>
@@ -498,7 +497,7 @@
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
       <version>1.33</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.projectreactor.addons</groupId>
@@ -513,19 +512,20 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.1</version>
+      <version>4.13.2</version>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-api</artifactId>
       <version>1.4.1</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-common</artifactId>
       <version>1.4.1</version>
-      <scope>compile</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>jakarta.persistence</groupId>
@@ -595,32 +595,169 @@
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-buffer</artifactId>
-      <version>4.1.68.Final</version>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-codec</artifactId>
-      <version>4.1.68.Final</version>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-dns</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-haproxy</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-http</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-http2</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-memcache</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-mqtt</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-redis</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-smtp</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-socks</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-stomp</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-xml</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-common</artifactId>
-      <version>4.1.68.Final</version>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-handler</artifactId>
-      <version>4.1.68.Final</version>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-handler-proxy</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-handler-ssl-ocsp</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-resolver</artifactId>
-      <version>4.1.68.Final</version>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-resolver-dns</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-resolver-dns-classes-macos</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-transport</artifactId>
-      <version>4.1.68.Final</version>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-classes-epoll</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-classes-kqueue</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-native-unix-common</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-rxtx</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-sctp</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-udt</artifactId>
+      <version>4.1.86.Final</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.openfeign.form</groupId>
+      <artifactId>feign-form</artifactId>
+      <version>3.8.0</version>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign.form</groupId>
@@ -633,5 +770,4 @@
       <version>3.4.2.Final</version>
     </dependency>
   </dependencies>
-
 </project>
