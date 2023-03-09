@@ -21,16 +21,16 @@
   <version>0.0.1</version>
 
   <modules>
-    <module>nc</module>
-    <module>nc-auth</module>
-    <module>nc-gateway</module>
-    <module>nc-register</module>
-    <module>nc-monitor</module>
-    <module>nc-job</module>
-    <module>nc-sentinel</module>
-    <module>nc-tx</module>
-    <module>nc-notifier</module>
-    <module>nc-collector</module>
+    <module>n</module>
+    <module>n-auth</module>
+    <module>n-gateway</module>
+    <module>n-register</module>
+    <module>n-monitor</module>
+    <module>n-job</module>
+    <module>n-sentinel</module>
+    <module>n-tx</module>
+    <module>n-notifier</module>
+    <module>n-collector</module>
   </modules>
 
 </project>
