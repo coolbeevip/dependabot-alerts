@@ -31,6 +31,7 @@
     <module>n-tx</module>
     <module>n-notifier</module>
     <module>n-collector</module>
+    <module>n-adapter</module>
   </modules>
 
 </project>
