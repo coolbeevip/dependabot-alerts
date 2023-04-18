@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- license-maven-plugin automatically created by Fri Mar 10 10:36:10 CST 2023-->
+<!-- license-maven-plugin automatically created by Tue Apr 18 20:47:09 CST 2023-->
 
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
@@ -14,24 +14,26 @@
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
-      <version>3.18.1</version>
-    <scope>test</scope>
+      <version>3.21.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.thymeleaf</groupId>
       <artifactId>thymeleaf</artifactId>
-      <version>3.0.14.RELEASE</version>
+      <version>3.0.15.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.thymeleaf</groupId>
       <artifactId>thymeleaf-spring5</artifactId>
-      <version>3.0.14.RELEASE</version>
+      <version>3.0.15.RELEASE</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpasyncclient</artifactId>
-      <version>4.1.4</version>
+      <version>4.1.5</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -42,18 +44,20 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpcore</artifactId>
-      <version>4.4.14</version>
+      <version>4.4.15</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpcore-nio</artifactId>
-      <version>4.4.14</version>
+      <version>4.4.15</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpmime</artifactId>
       <version>4.5.13</version>
-    <scope>compile</scope>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.google.protobuf</groupId>
@@ -65,6 +69,7 @@
       <groupId>jakarta.activation</groupId>
       <artifactId>jakarta.activation-api</artifactId>
       <version>2.1.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
@@ -154,6 +159,13 @@
       <groupId>org.unbescape</groupId>
       <artifactId>unbescape</artifactId>
       <version>1.1.6.RELEASE</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-el</artifactId>
+      <version>9.0.69</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.checkerframework</groupId>
@@ -171,17 +183,13 @@
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
       <version>2.6</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.dataformat</groupId>
-      <artifactId>jackson-dataformat-csv</artifactId>
-      <version>2.11.4</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.hibernate.validator</groupId>
       <artifactId>hibernate-validator</artifactId>
-      <version>6.1.7.Final</version>
+      <version>6.2.5.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.jnr</groupId>
@@ -222,13 +230,13 @@
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-clients</artifactId>
-      <version>2.6.3</version>
+      <version>3.0.2</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka_2.13</artifactId>
-      <version>2.6.3</version>
+      <version>3.0.2</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -240,97 +248,97 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aspects</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context-support</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-expression</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jcl</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-messaging</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-orm</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-oxm</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>5.3.22</version>
-    <scope>compile</scope>
+      <version>5.3.24</version>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-tx</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>5.3.22</version>
+      <version>5.3.24</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -343,11 +351,13 @@
       <groupId>org.hibernate.common</groupId>
       <artifactId>hibernate-commons-annotations</artifactId>
       <version>5.1.2.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>jakarta.websocket</groupId>
       <artifactId>jakarta.websocket-api</artifactId>
       <version>1.1.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.thymeleaf.extras</groupId>
@@ -365,6 +375,7 @@
       <groupId>org.wildfly.client</groupId>
       <artifactId>wildfly-client-config</artifactId>
       <version>1.0.1.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.jsqlparser</groupId>
@@ -375,7 +386,8 @@
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy</artifactId>
-      <version>3.0.9</version>
+      <version>3.0.13</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
@@ -386,127 +398,127 @@
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-ant</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-cli-commons</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-cli-picocli</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-console</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-datetime</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-docgenerator</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-groovydoc</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-groovysh</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-jmx</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-json</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-jsr223</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-macro</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-nio</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-servlet</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-sql</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-swing</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-templates</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-test</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-test-junit5</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-testng</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-xml</artifactId>
-      <version>2.5.15</version>
+      <version>3.0.13</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -518,6 +530,7 @@
       <groupId>jakarta.transaction</groupId>
       <artifactId>jakarta.transaction-api</artifactId>
       <version>1.3.3</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
@@ -538,25 +551,15 @@
     <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>javax.activation</groupId>
-      <artifactId>activation</artifactId>
-      <version>1.1.1</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>javax.activation</groupId>
-      <artifactId>javax.activation-api</artifactId>
-      <version>1.2.0</version>
-    </dependency>
-    <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
       <version>6.4.4</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jboss.xnio</groupId>
       <artifactId>xnio-api</artifactId>
-      <version>3.8.7.Final</version>
+      <version>3.8.8.Final</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -579,29 +582,25 @@
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-junit-jupiter</artifactId>
-      <version>3.6.28</version>
+      <version>4.0.0</version>
     <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.dom4j</groupId>
-      <artifactId>dom4j</artifactId>
-      <version>2.1.3</version>
     </dependency>
     <dependency>
       <groupId>antlr</groupId>
       <artifactId>antlr</artifactId>
       <version>2.7.7</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>accessors-smart</artifactId>
-      <version>2.3.1</version>
+      <version>2.4.8</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
-      <version>2.3.1</version>
+      <version>2.4.8</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -613,11 +612,13 @@
       <groupId>de.codecentric</groupId>
       <artifactId>spring-boot-admin-client</artifactId>
       <version>2.3.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-core</artifactId>
       <version>5.4.10</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
@@ -629,38 +630,43 @@
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-rsa</artifactId>
       <version>1.0.11.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.sun.xml.bind</groupId>
       <artifactId>jaxb-impl</artifactId>
       <version>3.0.2</version>
+    <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.sun.xml.bind</groupId>
-      <artifactId>jaxb-osgi</artifactId>
-      <version>2.2.10</version>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <version>8.0.32</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.lingala.zip4j</groupId>
       <artifactId>zip4j</artifactId>
-      <version>2.11.2</version>
+      <version>2.11.5</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.ulisesbocchio</groupId>
       <artifactId>jasypt-spring-boot</artifactId>
       <version>1.16</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.ulisesbocchio</groupId>
       <artifactId>jasypt-spring-boot-starter</artifactId>
       <version>1.16</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.sun.activation</groupId>
       <artifactId>jakarta.activation</artifactId>
       <version>2.0.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.errorprone</groupId>
@@ -683,36 +689,38 @@
     <dependency>
       <groupId>org.skyscreamer</groupId>
       <artifactId>jsonassert</artifactId>
-      <version>1.5.0</version>
-    <scope>compile</scope>
+      <version>1.5.1</version>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib</artifactId>
-      <version>1.4.32</version>
+      <version>1.6.21</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-common</artifactId>
-      <version>1.4.32</version>
+      <version>1.6.21</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk7</artifactId>
-      <version>1.4.32</version>
+      <version>1.6.21</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk8</artifactId>
-      <version>1.4.32</version>
+      <version>1.6.21</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
       <version>3.5.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -729,7 +737,8 @@
     <dependency>
       <groupId>org.reactivestreams</groupId>
       <artifactId>reactive-streams</artifactId>
-      <version>1.0.3</version>
+      <version>1.0.4</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.gridgain</groupId>
@@ -776,7 +785,8 @@
     <dependency>
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-commons</artifactId>
-      <version>2.4.15</version>
+      <version>2.6.10</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.data</groupId>
@@ -787,12 +797,14 @@
     <dependency>
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-jpa</artifactId>
-      <version>2.4.15</version>
+      <version>2.6.10</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-keyvalue</artifactId>
-      <version>2.4.15</version>
+      <version>2.6.10</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.data</groupId>
@@ -803,13 +815,14 @@
     <dependency>
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-relational</artifactId>
-      <version>2.1.15</version>
+      <version>2.3.10</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.hdrhistogram</groupId>
       <artifactId>HdrHistogram</artifactId>
       <version>2.1.12</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.carrotsearch.thirdparty</groupId>
@@ -821,11 +834,7 @@
       <groupId>com.sun.istack</groupId>
       <artifactId>istack-commons-runtime</artifactId>
       <version>3.0.12</version>
-    </dependency>
-    <dependency>
-      <groupId>org.lz4</groupId>
-      <artifactId>lz4-java</artifactId>
-      <version>1.7.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.lz4</groupId>
@@ -846,41 +855,22 @@
     <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.javassist</groupId>
-      <artifactId>javassist</artifactId>
-      <version>3.27.0-GA</version>
-    </dependency>
-    <dependency>
-      <groupId>com.thoughtworks.qdox</groupId>
-      <artifactId>qdox</artifactId>
-      <version>1.12.1</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.zookeeper</groupId>
-      <artifactId>zookeeper</artifactId>
-      <version>3.5.7</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.zookeeper</groupId>
-      <artifactId>zookeeper-jute</artifactId>
-      <version>3.5.7</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.alibaba.spring</groupId>
       <artifactId>spring-context-support</artifactId>
       <version>1.0.10</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-runtime</artifactId>
-      <version>2.3.5</version>
+      <version>2.3.7</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>txw2</artifactId>
-      <version>2.3.5</version>
+      <version>2.3.7</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba.cloud</groupId>
@@ -922,23 +912,6 @@
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
       <version>1.15</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-api</artifactId>
-      <version>2.17.2</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-to-slf4j</artifactId>
-      <version>2.17.2</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>jline</groupId>
-      <artifactId>jline</artifactId>
-      <version>2.14.6</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -950,7 +923,7 @@
     <dependency>
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm</artifactId>
-      <version>5.0.4</version>
+      <version>9.1</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -986,39 +959,31 @@
     <dependency>
       <groupId>org.jboss</groupId>
       <artifactId>jandex</artifactId>
-      <version>2.2.3.Final</version>
+      <version>2.4.2.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jasypt</groupId>
       <artifactId>jasypt</artifactId>
       <version>1.9.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.github.embeddedkafka</groupId>
       <artifactId>embedded-kafka_2.13</artifactId>
-      <version>2.5.1</version>
+      <version>3.2.3</version>
     <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>javax.xml.bind</groupId>
-      <artifactId>jaxb-api</artifactId>
-      <version>2.3.1</version>
     </dependency>
     <dependency>
       <groupId>io.projectreactor</groupId>
       <artifactId>reactor-core</artifactId>
-      <version>3.4.12</version>
-    </dependency>
-    <dependency>
-      <groupId>net.sf.jopt-simple</groupId>
-      <artifactId>jopt-simple</artifactId>
-      <version>5.0.4</version>
+      <version>3.4.25</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.rest-assured</groupId>
       <artifactId>json-path</artifactId>
-      <version>3.3.0</version>
+      <version>4.4.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1029,29 +994,32 @@
     <dependency>
       <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured-common</artifactId>
-      <version>3.3.0</version>
+      <version>4.4.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.rest-assured</groupId>
       <artifactId>xml-path</artifactId>
-      <version>3.3.0</version>
+      <version>4.4.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.j2objc</groupId>
       <artifactId>j2objc-annotations</artifactId>
       <version>1.3</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-beanutils</groupId>
       <artifactId>commons-beanutils</artifactId>
       <version>1.9.4</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
       <artifactId>micrometer-core</artifactId>
-      <version>1.6.13</version>
+      <version>1.8.12</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.mifmif</groupId>
@@ -1062,119 +1030,115 @@
     <dependency>
       <groupId>com.github.luben</groupId>
       <artifactId>zstd-jni</artifactId>
-      <version>1.4.4-7</version>
-    </dependency>
-    <dependency>
-      <groupId>com.github.luben</groupId>
-      <artifactId>zstd-jni</artifactId>
       <version>1.5.0-4</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
-      <version>2.13.2</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.scala-lang</groupId>
-      <artifactId>scala-reflect</artifactId>
-      <version>2.13.2</version>
+      <version>2.13.8</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-actuator</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-actuator-autoconfigure</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-autoconfigure</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-aop</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-cache</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-jdbc</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-json</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-logging</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-validation</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-test</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-test-autoconfigure</artifactId>
-      <version>2.4.13</version>
+      <version>2.6.14</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.zaxxer</groupId>
       <artifactId>HikariCP</artifactId>
-      <version>3.4.5</version>
+      <version>4.0.3</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.xerial.snappy</groupId>
-      <artifactId>snappy-java</artifactId>
-      <version>1.1.7.3</version>
     </dependency>
     <dependency>
       <groupId>org.xerial.snappy</groupId>
@@ -1192,41 +1156,42 @@
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest</artifactId>
       <version>2.2</version>
-    <scope>compile</scope>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-core</artifactId>
       <version>2.2</version>
-    <scope>compile</scope>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-library</artifactId>
       <version>2.2</version>
-    <scope>compile</scope>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.jboss.logging</groupId>
       <artifactId>jboss-logging</artifactId>
-      <version>3.4.2.Final</version>
+      <version>3.4.3.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.undertow</groupId>
       <artifactId>undertow-core</artifactId>
-      <version>2.2.19.Final</version>
+      <version>2.2.23.Final</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.undertow</groupId>
       <artifactId>undertow-servlet</artifactId>
-      <version>2.2.19.Final</version>
+      <version>2.2.23.Final</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.undertow</groupId>
       <artifactId>undertow-websockets-jsr</artifactId>
-      <version>2.2.19.Final</version>
+      <version>2.2.23.Final</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1251,7 +1216,7 @@
       <groupId>org.junit.vintage</groupId>
       <artifactId>junit-vintage-engine</artifactId>
       <version>5.6.3</version>
-    <scope>compile</scope>
+    <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.squareup.okhttp3</groupId>
@@ -1262,33 +1227,32 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>jcl-over-slf4j</artifactId>
-      <version>1.7.32</version>
+      <version>1.7.36</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>jul-to-slf4j</artifactId>
-      <version>1.7.32</version>
+      <version>1.7.36</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.32</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-cli</groupId>
-      <artifactId>commons-cli</artifactId>
-      <version>1.4</version>
+      <version>1.7.36</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
       <artifactId>swagger-annotations</artifactId>
       <version>1.5.22</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>5.4.32.Final</version>
+      <version>5.6.14.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
@@ -1315,45 +1279,16 @@
     <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.fasterxml.jackson.module</groupId>
-      <artifactId>jackson-module-paranamer</artifactId>
-      <version>2.11.4</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.module</groupId>
-      <artifactId>jackson-module-scala_2.13</artifactId>
-      <version>2.11.4</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.11.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>info.picocli</groupId>
-      <artifactId>picocli</artifactId>
-      <version>4.3.2</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.platform</groupId>
-      <artifactId>junit-platform-launcher</artifactId>
-      <version>1.7.2</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.thoughtworks.paranamer</groupId>
-      <artifactId>paranamer</artifactId>
-      <version>2.8</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>jakarta.annotation</groupId>
       <artifactId>jakarta.annotation-api</artifactId>
       <version>1.3.5</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.baomidou</groupId>
@@ -1389,11 +1324,13 @@
       <groupId>org.jboss.threads</groupId>
       <artifactId>jboss-threads</artifactId>
       <version>3.1.0.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
       <version>1.1.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
@@ -1404,57 +1341,60 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.20</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-commons</artifactId>
-      <version>3.0.6</version>
+      <version>3.1.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-context</artifactId>
-      <version>3.0.6</version>
+      <version>3.1.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-loadbalancer</artifactId>
-      <version>3.0.6</version>
+      <version>3.1.6</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-openfeign-core</artifactId>
-      <version>3.0.7</version>
+      <version>3.1.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter</artifactId>
-      <version>3.0.6</version>
+      <version>3.1.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-openfeign</artifactId>
-      <version>3.0.7</version>
+      <version>3.1.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>jakarta.validation</groupId>
       <artifactId>jakarta.validation-api</artifactId>
       <version>2.0.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.attoparser</groupId>
       <artifactId>attoparser</artifactId>
       <version>2.0.5.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-collections</groupId>
       <artifactId>commons-collections</artifactId>
       <version>3.2.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.sling</groupId>
-      <artifactId>org.apache.sling.javax.activation</artifactId>
-      <version>0.1.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1491,38 +1431,42 @@
       <groupId>com.alibaba</groupId>
       <artifactId>transmittable-thread-local</artifactId>
       <version>2.11.4</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.bytebuddy</groupId>
       <artifactId>byte-buddy</artifactId>
-      <version>1.10.22</version>
+      <version>1.11.22</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.bytebuddy</groupId>
       <artifactId>byte-buddy-agent</artifactId>
-      <version>1.10.22</version>
+      <version>1.11.22</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.javaparser</groupId>
+      <artifactId>javaparser-core</artifactId>
+      <version>3.24.2</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjrt</artifactId>
       <version>1.9.7</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
       <version>1.9.7</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.googlecode.concurrentlinkedhashmap</groupId>
       <artifactId>concurrentlinkedhashmap-lru</artifactId>
       <version>1.4.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.yetus</groupId>
-      <artifactId>audience-annotations</artifactId>
-      <version>0.5.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1534,35 +1478,37 @@
     <dependency>
       <groupId>io.prometheus</groupId>
       <artifactId>simpleclient</artifactId>
-      <version>0.5.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.scala-lang.modules</groupId>
-      <artifactId>scala-collection-compat_2.13</artifactId>
-      <version>2.1.6</version>
+      <version>0.12.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.scala-lang.modules</groupId>
-      <artifactId>scala-java8-compat_2.13</artifactId>
-      <version>0.9.1</version>
+      <groupId>io.prometheus</groupId>
+      <artifactId>simpleclient_tracer_common</artifactId>
+      <version>0.12.0</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.prometheus</groupId>
+      <artifactId>simpleclient_tracer_otel</artifactId>
+      <version>0.12.0</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.prometheus</groupId>
+      <artifactId>simpleclient_tracer_otel_agent</artifactId>
+      <version>0.12.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml</groupId>
       <artifactId>classmate</artifactId>
       <version>1.5.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.ant</groupId>
-      <artifactId>ant</artifactId>
-      <version>1.9.15</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.ant</groupId>
-      <artifactId>ant-launcher</artifactId>
-      <version>1.9.15</version>
+      <artifactId>ant</artifactId>
+      <version>1.10.12</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1575,6 +1521,7 @@
       <groupId>com.google.guava</groupId>
       <artifactId>failureaccess</artifactId>
       <version>1.0.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
@@ -1586,17 +1533,12 @@
       <groupId>com.google.guava</groupId>
       <artifactId>listenablefuture</artifactId>
       <version>9999.0-empty-to-avoid-conflict-with-guava</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>2.9.1</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.yammer.metrics</groupId>
-      <artifactId>metrics-core</artifactId>
-      <version>2.2.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1621,6 +1563,7 @@
       <groupId>org.jetbrains</groupId>
       <artifactId>annotations</artifactId>
       <version>13.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains</groupId>
@@ -1643,72 +1586,91 @@
     <dependency>
       <groupId>io.projectreactor.addons</groupId>
       <artifactId>reactor-extra</artifactId>
-      <version>3.4.5</version>
+      <version>3.4.9</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.xmlunit</groupId>
       <artifactId>xmlunit-core</artifactId>
-      <version>2.7.0</version>
+      <version>2.8.4</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>jakarta.xml.bind</groupId>
       <artifactId>jakarta.xml.bind-api</artifactId>
       <version>3.0.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-api</artifactId>
-      <version>1.4.1</version>
+      <version>1.4.4</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-client</artifactId>
-      <version>1.4.1</version>
+      <version>1.4.4</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba.nacos</groupId>
       <artifactId>nacos-common</artifactId>
-      <version>1.4.1</version>
+      <version>1.4.4</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.kafka</groupId>
       <artifactId>spring-kafka</artifactId>
-      <version>2.6.13</version>
+      <version>2.8.11</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>jakarta.persistence</groupId>
       <artifactId>jakarta.persistence-api</artifactId>
       <version>2.2.3</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign</groupId>
       <artifactId>feign-core</artifactId>
-      <version>10.12</version>
+      <version>11.10</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign</groupId>
       <artifactId>feign-httpclient</artifactId>
       <version>11.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign</groupId>
       <artifactId>feign-slf4j</artifactId>
-      <version>10.12</version>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish</groupId>
-      <artifactId>jakarta.el</artifactId>
-      <version>3.0.4</version>
+      <version>11.10</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.minio</groupId>
       <artifactId>minio</artifactId>
       <version>8.4.3</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.8.2</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.8.2</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>5.8.2</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -1857,12 +1819,6 @@
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
-      <artifactId>netty-transport-native-epoll</artifactId>
-      <version>4.1.70.Final</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
       <artifactId>netty-transport-native-unix-common</artifactId>
       <version>4.1.86.Final</version>
     <scope>compile</scope>
@@ -1894,30 +1850,25 @@
     <dependency>
       <groupId>com.jayway.jsonpath</groupId>
       <artifactId>json-path</artifactId>
-      <version>2.4.0</version>
+      <version>2.6.0</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign.form</groupId>
       <artifactId>feign-form</artifactId>
       <version>3.8.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign.form</groupId>
       <artifactId>feign-form-spring</artifactId>
       <version>3.8.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.typesafe.scala-logging</groupId>
-      <artifactId>scala-logging_2.13</artifactId>
-      <version>3.9.2</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.freemarker</groupId>
       <artifactId>freemarker</artifactId>
       <version>2.3.30</version>
-    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.spotbugs</groupId>
@@ -1928,7 +1879,7 @@
     <dependency>
       <groupId>org.springframework.retry</groupId>
       <artifactId>spring-retry</artifactId>
-      <version>1.3.1</version>
+      <version>1.3.4</version>
     <scope>compile</scope>
     </dependency>
     <dependency>

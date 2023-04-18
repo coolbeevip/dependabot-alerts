@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- license-maven-plugin automatically created by Thu Mar 09 15:10:08 CST 2023-->
+<!-- license-maven-plugin automatically created by Tue Apr 18 20:39:46 CST 2023-->
 
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
@@ -39,6 +39,7 @@
       <groupId>io.swagger</groupId>
       <artifactId>swagger-annotations</artifactId>
       <version>1.5.22</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -110,6 +111,7 @@
       <groupId>org.springframework.security.oauth.boot</groupId>
       <artifactId>spring-security-oauth2-autoconfigure</artifactId>
       <version>2.5.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.tomcat.embed</groupId>
@@ -127,11 +129,13 @@
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.7</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
       <version>2.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.hibernate.validator</groupId>
@@ -143,6 +147,7 @@
       <groupId>jakarta.annotation</groupId>
       <artifactId>jakarta.annotation-api</artifactId>
       <version>1.3.5</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.baomidou</groupId>
@@ -232,6 +237,7 @@
       <groupId>org.hibernate.common</groupId>
       <artifactId>hibernate-commons-annotations</artifactId>
       <version>5.1.2.Final</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
@@ -265,6 +271,7 @@
       <groupId>jakarta.transaction</groupId>
       <artifactId>jakarta.transaction-api</artifactId>
       <version>1.3.3</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
@@ -288,11 +295,13 @@
       <groupId>javax.activation</groupId>
       <artifactId>javax.activation-api</artifactId>
       <version>1.2.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
       <version>6.4.4</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -316,6 +325,7 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-security</artifactId>
       <version>2.2.5.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -339,6 +349,7 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-oauth2</artifactId>
       <version>2.2.5.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -350,6 +361,7 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-security</artifactId>
       <version>2.2.5.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.lettuce</groupId>
@@ -361,6 +373,7 @@
       <groupId>jakarta.validation</groupId>
       <artifactId>jakarta.validation-api</artifactId>
       <version>2.0.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.dom4j</groupId>
@@ -371,11 +384,24 @@
       <groupId>antlr</groupId>
       <artifactId>antlr</artifactId>
       <version>2.7.7</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.linkage</groupId>
+      <artifactId>com.linkage.fa.ssoclient-cmnet</artifactId>
+      <version>1.0.4</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.database.nls</groupId>
       <artifactId>orai18n</artifactId>
       <version>19.8.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jasig.cas.client</groupId>
+      <artifactId>cas-client-core-zoneland</artifactId>
+      <version>3.4.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
@@ -387,16 +413,19 @@
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-jwt</artifactId>
       <version>1.1.1.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-rsa</artifactId>
       <version>1.0.11.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-collections</groupId>
       <artifactId>commons-collections</artifactId>
       <version>3.2.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.zoneland.logincenter</groupId>
@@ -413,28 +442,32 @@
     <dependency>
       <groupId>net.lingala.zip4j</groupId>
       <artifactId>zip4j</artifactId>
-      <version>2.11.2</version>
+      <version>2.11.5</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.ulisesbocchio</groupId>
       <artifactId>jasypt-spring-boot</artifactId>
       <version>1.16</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.ulisesbocchio</groupId>
       <artifactId>jasypt-spring-boot-starter</artifactId>
       <version>1.16</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
       <version>1.2.83</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>transmittable-thread-local</artifactId>
       <version>2.11.4</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.bytebuddy</groupId>
@@ -446,16 +479,19 @@
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjrt</artifactId>
       <version>1.9.7</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
       <version>1.9.7</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
       <version>3.5.6</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -527,6 +563,7 @@
       <groupId>org.hdrhistogram</groupId>
       <artifactId>HdrHistogram</artifactId>
       <version>2.1.12</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>cn.hutool</groupId>
@@ -537,16 +574,19 @@
       <groupId>org.springframework.security.oauth</groupId>
       <artifactId>spring-security-oauth2</artifactId>
       <version>2.4.0.RELEASE</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml</groupId>
       <artifactId>classmate</artifactId>
       <version>1.5.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.sun.istack</groupId>
       <artifactId>istack-commons-runtime</artifactId>
       <version>3.0.12</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
@@ -558,6 +598,7 @@
       <groupId>com.alibaba.spring</groupId>
       <artifactId>spring-context-support</artifactId>
       <version>1.0.10</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
@@ -593,17 +634,12 @@
       <groupId>it.ozimov</groupId>
       <artifactId>embedded-redis</artifactId>
       <version>0.7.2</version>
+    <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-api</artifactId>
-      <version>2.17.2</version>
-    <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-to-slf4j</artifactId>
-      <version>2.17.2</version>
+      <groupId>com.ultrapower</groupId>
+      <artifactId>ultra_ams_caspclient</artifactId>
+      <version>3.0.1</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -619,6 +655,12 @@
     <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.boco</groupId>
+      <artifactId>sso-client</artifactId>
+      <version>1.0</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>org.jboss</groupId>
       <artifactId>jandex</artifactId>
       <version>2.4.2.Final</version>
@@ -628,6 +670,7 @@
       <groupId>org.jasypt</groupId>
       <artifactId>jasypt</artifactId>
       <version>1.9.2</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.yaml</groupId>
@@ -639,11 +682,12 @@
       <groupId>javax.xml.bind</groupId>
       <artifactId>jaxb-api</artifactId>
       <version>2.3.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
-      <version>1.2.16</version>
+      <version>1.2.17</version>
     <scope>compile</scope>
     </dependency>
     <dependency>
@@ -692,6 +736,7 @@
       <groupId>jakarta.persistence</groupId>
       <artifactId>jakarta.persistence-api</artifactId>
       <version>2.2.3</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.rest-assured</groupId>
@@ -702,6 +747,7 @@
       <groupId>commons-beanutils</groupId>
       <artifactId>commons-beanutils</artifactId>
       <version>1.9.4</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.micrometer</groupId>
@@ -719,6 +765,7 @@
       <groupId>io.github.openfeign</groupId>
       <artifactId>feign-httpclient</artifactId>
       <version>11.1</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign</groupId>
@@ -838,7 +885,7 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
       <version>2.6.14</version>
-    <scope>test</scope>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.zaxxer</groupId>
@@ -1023,11 +1070,13 @@
       <groupId>io.github.openfeign.form</groupId>
       <artifactId>feign-form</artifactId>
       <version>3.8.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign.form</groupId>
       <artifactId>feign-form-spring</artifactId>
       <version>3.8.0</version>
+    <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jboss.logging</groupId>
