@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- license-maven-plugin automatically created by Tue Apr 18 20:40:15 CST 2023-->
+<!-- license-maven-plugin automatically created by Tue Aug 08 19:29:23 CST 2023-->
 
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.coolbeevip</groupId>
-  <artifactId>coolbeevip-tx</artifactId>
+  <artifactId>coolbeevip</artifactId>
   <version>5.4.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
